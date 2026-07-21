@@ -17,7 +17,7 @@ export default function sitemap() {
   ].map((route) => ({
     url: `${BASE_URL}${route}`,
     lastModified: new Date(),
-    changeFrequency: route === "" ? "weekly" : "monthly",
+    changeFrequency: route === "" ? "weekly" : "weekly",
     priority: route === "" ? 1 : 0.8,
   }));
 
@@ -25,7 +25,7 @@ export default function sitemap() {
   const blogRoutes = blogs.map((blog) => ({
     url: `${BASE_URL}/blog/${blog.slug}`,
     lastModified: new Date(blog.date),
-    changeFrequency: "monthly",
+    changeFrequency: "weekly",
     priority: 0.6,
   }));
 
