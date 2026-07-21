@@ -79,11 +79,11 @@ export default function AboutSection() {
                   ABOUT US
                 </span>
 
-                <h2 className="font-capriola text-[24px] sm:text-[30px] md:text-[36px] lg:text-[48px] leading-[1.1] sm:leading-[1.05] mt-3 sm:mt-5">
+                <h1 className="font-capriola text-[24px] sm:text-[30px] md:text-[36px] lg:text-[48px] leading-[1.1] sm:leading-[1.05] mt-3 sm:mt-5">
                   Soft Play area
                   <br />
                   manufacturer
-                </h2>
+                </h1>
 
                 <p className="mt-2 text-sm sm:text-base text-[#5F5F5F] tracking-wide leading-6 sm:leading-7">
                   Maskeen Toys, a trusted

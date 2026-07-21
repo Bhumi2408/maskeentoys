@@ -34,6 +34,9 @@ export const metadata = {
   },
 
   description: "Maskeen Toys is a trusted Soft Play Area Manufacturer in Delhi, offering safe, durable, and customized play solutions for schools. Contact us now!",
+   alternates: {
+    canonical: "https://www.playareamanufacturer.com",
+  },
 
   icons:{
     icon:"/fav.png"
