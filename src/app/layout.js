@@ -40,7 +40,10 @@ export const metadata = {
 
   icons:{
     icon:"/fav.png"
-  }
+  },
+  verification: {
+    google: "JReEb4fqiZKSV6VJuV4icUkC9oBn4Jd6PihoxwOfNxs",
+  },
 
 };
 
