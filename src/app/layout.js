@@ -50,6 +50,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+         <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-V4CSENEPEP"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-V4CSENEPEP');
+          `}
+        </Script>
+      </head>
       <body
         className={`${sourceSans.variable} ${capriola.variable} ${loveYaLikeASister.variable} font-source antialiased`}
       >
