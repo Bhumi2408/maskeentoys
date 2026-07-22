@@ -1,5 +1,6 @@
 // src/app/sitemap.js
 import { blogs } from "./blog/data/blogs";
+import { landingPages } from "./data/landingPages";
 
 const BASE_URL = "https://www.playareamanufacturer.com";
 
@@ -17,7 +18,7 @@ export default function sitemap() {
   ].map((route) => ({
     url: `${BASE_URL}${route}`,
     lastModified: new Date(),
-    changeFrequency: route === "" ? "weekly" : "weekly",
+    changeFrequency: "weekly",
     priority: route === "" ? 1 : 0.8,
   }));
 
@@ -29,5 +30,13 @@ export default function sitemap() {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...blogRoutes];
+  // Dynamic product/service landing pages — landingPages.js se automatically aa jayenge
+  const landingPageRoutes = landingPages.map((page) => ({
+    url: `${BASE_URL}/${page.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.7,
+  }));
+
+  return [...staticRoutes, ...blogRoutes, ...landingPageRoutes];
 }
