@@ -2,6 +2,7 @@ import "./globals.css";
 
 import { Source_Sans_3, Capriola } from "next/font/google";
 import localFont from "next/font/local";
+import Script from "next/script";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
