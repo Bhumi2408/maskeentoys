@@ -2,32 +2,79 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 
+const WEB3FORMS_ACCESS_KEY = "1680d147-2056-4ce8-98de-053b43b71a59";
+
+// const WEB3FORMS_ACCESS_KEY_2 = "YOUR_SECOND_WEB3FORMS_ACCESS_KEY_HERE";
+
+const submitToWeb3Forms = async (payload, accessKey) => {
+  const response = await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+    body: JSON.stringify({ ...payload, access_key: accessKey }),
+  });
+  const result = await response.json();
+  if (!result.success) {
+    throw new Error(result.message || "Submission failed");
+  }
+  return result;
+};
+
 export default function ContactFormSection() {
-  const [status, setStatus] = useState("idle"); // idle | loading | success | error
+  const router = useRouter();
+  const [status, setStatus] = useState("idle"); 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus("loading");
 
     const formData = new FormData(e.target);
-    formData.append("access_key", "YOUR_WEB3FORMS_ACCESS_KEY_HERE");
+
+    //  Bot check (honeypot) — agar ye field bhara hua hai to ye bot hai,
+    // form submit hi mat karo, silently success dikha do.
+    if (formData.get("botcheck")) {
+      return;
+    }
+
+    setStatus("loading");
+
+    // Selected subject ke aage site context add kar diya, taki email me clear pata chale
+    const selectedSubject = formData.get("subject") || "General Inquiry";
+
+    const payload = {
+      subject: `${selectedSubject} - Maskeen Toys Website`,
+      from_name: "Maskeen Toys Website",
+      first_name: formData.get("first_name"),
+      last_name: formData.get("last_name"),
+      email: formData.get("email"),
+      phone: formData.get("phone"),
+      location: formData.get("location"),
+      message: formData.get("message"),
+    };
 
     try {
-      const res = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        body: formData,
-      });
+      await submitToWeb3Forms(payload, "1680d147-2056-4ce8-98de-053b43b71a59");
 
-      const result = await res.json();
+      //  FUTURE USE: jab 2nd access key add karni ho, upar wali
+      // WEB3FORMS_ACCESS_KEY_2 line uncomment karo aur try block ko
+      // isse replace kar do, taaki dono inbox me ek saath jaaye aur
+      // ek fail ho tab bhi doosra chal jaaye:
+      //
+      // const results = await Promise.allSettled([
+      //   submitToWeb3Forms(payload, WEB3FORMS_ACCESS_KEY),
+      //   submitToWeb3Forms(payload, WEB3FORMS_ACCESS_KEY_2),
+      // ]);
+      // const atLeastOneSucceeded = results.some((r) => r.status === "fulfilled");
+      // if (!atLeastOneSucceeded) throw new Error("Both submissions failed");
 
-      if (result.success) {
-        setStatus("success");
-        e.target.reset();
-      } else {
-        setStatus("error");
-      }
+      setStatus("success");
+      e.target.reset();
+      // ✅ Custom thank-you page pe redirect
+      router.push("/thank-you");
     } catch (err) {
       setStatus("error");
     }
@@ -70,10 +117,7 @@ export default function ContactFormSection() {
                 <p className="font-medium text-2xl text-[#1a1a1a] font-capriola">
                   Phone:
                 </p>
-                <a
-                  href="tel:+919811644688"
-                  className=" text-[#5F5F5F]"
-                >
+                <a href="tel:+919811644688" className=" text-[#5F5F5F]">
                   +91-981-164-4688
                 </a>
               </div>
@@ -81,10 +125,7 @@ export default function ContactFormSection() {
                 <p className="font-medium text-2xl text-[#1a1a1a] font-capriola">
                   Email:
                 </p>
-                <a
-                  href="mailto:sales@maskeentoy.com"
-                  className="text-[#5F5F5F]"
-                >
+                <a href="mailto:sales@maskeentoy.com" className="text-[#5F5F5F]">
                   sales@maskeentoy.com
                 </a>
               </div>
@@ -92,9 +133,7 @@ export default function ContactFormSection() {
                 <p className="font-medium text-2xl text-[#1a1a1a] font-capriola">
                   Website:
                 </p>
-                <span className=" text-[#5F5F5F]">
-                  Maskeentoys.com
-                </span>
+                <span className=" text-[#5F5F5F]">Maskeentoys.com</span>
               </div>
             </div>
 
@@ -103,8 +142,15 @@ export default function ContactFormSection() {
               onSubmit={handleSubmit}
               className="mt-8 sm:mt-10 max-w-[700px] mx-auto flex flex-col gap-4"
             >
-              <input type="hidden" name="subject" value="New Contact Form Submission - Maskeen Toys" />
-              <input type="hidden" name="from_name" value="Maskeen Toys Website" />
+              {/* 🛑 Honeypot / Bot-check field — screen reader + real users ko nahi dikhega */}
+              <input
+                type="checkbox"
+                name="botcheck"
+                className="hidden"
+                style={{ display: "none" }}
+                tabIndex={-1}
+                autoComplete="off"
+              />
 
               <div className="grid sm:grid-cols-2 gap-4">
                 <input
@@ -121,6 +167,24 @@ export default function ContactFormSection() {
                   className="rounded-md border border-[#00000020] bg-white px-4 py-3 text-sm outline-none focus:border-[#F15D87] transition"
                 />
               </div>
+
+              <select
+                name="subject"
+                required
+                defaultValue=""
+                className="rounded-md border border-[#00000020] bg-white px-4 py-3 text-sm outline-none focus:border-[#F15D87] transition text-[#5F5F5F]"
+              >
+                <option value="" disabled>
+                  Select Subject
+                </option>
+                <option value="General Inquiry">General Inquiry</option>
+                <option value="Product Inquiry">Product Inquiry</option>
+                <option value="Bulk / Wholesale Order">Bulk / Wholesale Order</option>
+                <option value="Indoor Play Area Setup">Indoor Play Area Setup</option>
+                <option value="Franchise / Business Inquiry">Franchise / Business Inquiry</option>
+                <option value="Support / After-Sales">Support / After-Sales</option>
+                <option value="Other">Other</option>
+              </select>
 
               <input
                 type="email"
@@ -159,11 +223,6 @@ export default function ContactFormSection() {
                 {status === "loading" ? "Sending..." : "Send"}
               </button>
 
-              {status === "success" && (
-                <p className="text-green-600 text-sm font-medium">
-                  Thank you! Your message has been sent successfully.
-                </p>
-              )}
               {status === "error" && (
                 <p className="text-red-600 text-sm font-medium">
                   Something went wrong. Please try again or call us directly.
