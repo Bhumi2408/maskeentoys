@@ -43,7 +43,7 @@ export const metadata = {
     icon:"/fav.png"
   },
   verification: {
-    google: "JReEb4fqiZKSV6VJuV4icUkC9oBn4Jd6PihoxwOfNxs",
+    google: "CxfR-cIa9v_WCYV1TiKkZmkviAu4FwgS2kEoFShqxQI",
   },
 
 };
