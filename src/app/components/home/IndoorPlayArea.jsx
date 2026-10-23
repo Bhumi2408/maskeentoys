@@ -51,7 +51,7 @@ export default function IndoorPlayArea() {
     <section
       className="relative pb-10 bg-cover bg-center"
       style={{
-        backgroundImage: "url('/home/bg3.jpg')",
+        backgroundImage: "url('/home/bg3.webp')",
       }}
     >
       <div className="mx-auto max-w-[1650px] px-8 md:px-20">

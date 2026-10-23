@@ -3,28 +3,28 @@ import Link from "next/link";
 
 const collections = [
   {
-    image: "/home/slider-7.png",
+    image: "/home/slider-7.webp",
     title: "Slider",
     description: "Durable soft sliders for safe indoor fun",
     imageHeight: "h-[140px] sm:h-[160px] md:h-[175px]",
     color: "#A277B8",
   },
   {
-    image: "/home/playarea-2.png",
+    image: "/home/playarea-2.webp",
     title: "Playarea",
     description: "Custom indoor play areas for kids",
     imageHeight: "h-[220px] sm:h-[260px] md:h-[300px]",
     color: "#F8BC4D",
   },
   {
-    image: "/home/rollser-13.png",
+    image: "/home/rollser-13.webp",
     title: "Roll Set",
     description: "Colorful roll sets for toddler activities",
     imageHeight: "h-[140px] sm:h-[160px] md:h-[175px]",
     color: "#79C6EC",
   },
   {
-    image: "/home/slider-3.png",
+    image: "/home/slider-3.webp",
     title: "Slider",
     description: "Premium soft play setups for playschools",
     imageHeight: "h-[220px] sm:h-[260px] md:h-[300px]",

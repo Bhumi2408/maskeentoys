@@ -12,12 +12,12 @@ export const metadata = {
 };
 
 const clients = [
-    { logo: "/clients/euro.jpg", name: "EuroKids Pre-School" },
-    { logo: "/clients/bn.jpg", name: "Bharat National Public School" },
-    { logo: "/clients/bharat.jpg", name: "Bharatnagar International School" },
-    { logo: "/clients/dav.jpg", name: "D.A.V. Public School" },
-    { logo: "/clients/jnd.jpg", name: "Delhi Public School" },
-    { logo: "/clients/cubs.jpg", name: "Curious Cubs" },
+    { logo: "/clients/euro.webp", name: "EuroKids Pre-School" },
+    { logo: "/clients/bn.webp", name: "Bharat National Public School" },
+    { logo: "/clients/bharat.webp", name: "Bharatnagar International School" },
+    { logo: "/clients/dav.webp", name: "D.A.V. Public School" },
+    { logo: "/clients/jnd.webp", name: "Delhi Public School" },
+    { logo: "/clients/cubs.webp", name: "Curious Cubs" },
 ];
 
 const videos = [
@@ -33,7 +33,7 @@ export default function OurClientsPage() {
             <PageBanner
                 title="Our Clients"
                 subtitle="Trusted by Leading Preschools & Institutions Across India"
-                bgImage="/clients/tube-side-set.png"
+                bgImage="/clients/tube-side-set.webp"
             />
 
             {/* ================= CLIENTS (video bg) ================= */}

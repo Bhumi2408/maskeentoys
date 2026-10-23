@@ -8,8 +8,8 @@ import { Sparkles, Heart } from "lucide-react";
 import "swiper/css";
 
 const slides = [
-  "/home/beam-set.png",
-  "/home/soft-rocker.png",
+  "/home/beam-set.webp",
+  "/home/soft-rocker.webp",
 ];
 
 const topFeatures = [
@@ -30,7 +30,7 @@ export default function CreativePlaySection() {
     <section className="relative overflow-hidden py-10 sm:pt-10 lg:pt-14 px-4 sm:px-5 md:px-20">
       {/* Background */}
       <Image
-        src="/home/bg2.jpg"
+        src="/home/bg2.webp"
         alt=""
         fill
         priority
@@ -91,8 +91,8 @@ export default function CreativePlaySection() {
               <div
                 className="absolute inset-0 w-[90%] h-[95%] mx-auto overflow-hidden"
                 style={{
-                  WebkitMaskImage: "url('/home/mask.png')",
-                  maskImage: "url('/home/mask.png')",
+                  WebkitMaskImage: "url('/home/mask.webp')",
+                  maskImage: "url('/home/mask.webp')",
                   WebkitMaskRepeat: "no-repeat",
                   maskRepeat: "no-repeat",
                   WebkitMaskSize: "contain",

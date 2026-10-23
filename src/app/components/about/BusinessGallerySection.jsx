@@ -7,21 +7,21 @@ const gridItems = [
     title: "Business",
     desc: "We are a global manufacturer, supplier, and exporter of high-quality play products",
   },
-  { type: "image", src: "/about/soft-corousels.png" },
-  { type: "image", src: "/about/ball-pool-set.png" },
+  { type: "image", src: "/about/soft-corousels.webp" },
+  { type: "image", src: "/about/ball-pool-set.webp" },
   {
     type: "text",
     title: "Established",
-    desc: "We began our journey in 1988 to craft innovative and fun learning play tools.",
+    desc: "We began our journey in 1948 to craft innovative and fun learning play tools.",
   },
-  { type: "image", src: "/home/soft-corousel.png" },
-  { type: "image", src: "/home/about-left.png" },
+  { type: "image", src: "/home/soft-corousel.webp" },
+  { type: "image", src: "/home/about-left.webp" },
   {
     type: "text",
     title: "Legal Status of Firm",
-    desc: "We operate as an Individual – Proprietor, ensuring direct accountability and personalized service in every business interaction.",
+    desc: "We operate as a Private Limited Company (Pvt. Ltd.), ensuring accountability and personalized service in every business interaction.",
   },
-  { type: "image", src: "/about/navy-ship-play-set.png" },
+  { type: "image", src: "/about/navy-ship-play-set.webp" },
 ];
 
 export default function BusinessGallerySection() {

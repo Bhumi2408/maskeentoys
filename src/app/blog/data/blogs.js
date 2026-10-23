@@ -7,7 +7,7 @@ export const blogs = [
   metaDescription:"Looking for complete soft play area solutions in Delhi? Maskeen Toys offers custom-designed play zones, soft play area installation, and indoor kids play zone setup.",
     excerpt:
       "Are you planning to set up a play area for your kids? Whether it is a school, a daycare centre, a shopping mall, or your own home — complete soft play area solutions are exactly what you need today.",
-    image: "/home/about-right.jpeg",
+    image: "/home/about-right.webp",
     date: "2026-06-9",
     author: "Maskeen Toys",
     category: "Soft Play",
@@ -26,7 +26,7 @@ export const blogs = [
       },
       {
         type: "paragraph",
-        text: "Established in **1988 in New Delhi**, Maskeen Toys has been designing and manufacturing play equipment for over **35 years**. With a **3.9-star rating on IndiaMART from 183+ verified buyers**, a TrustSEAL certification, and an **89% response rate** — they are one of the most trusted names for soft play area installation services across Delhi NCR and beyond.",
+        text: "Established in **1948 in New Delhi**, Maskeen Toys has been designing and manufacturing play equipment for over **75 years**. With a **3.9-star rating on IndiaMART from 183+ verified buyers**, a TrustSEAL certification, and an **89% response rate** — they are one of the most trusted names for soft play area installation services across Delhi NCR and beyond.",
       },
       {
         type: "paragraph",
@@ -251,7 +251,7 @@ export const blogs = [
       },
       {
         type: "paragraph",
-        text: "Experience matters more than anything in this field. A company with decades of work behind them understands materials, child safety, installation challenges, and long-term durability far better than a newer entrant. Maskeen Toys has been in operation **since 1988** — over 35 years of proven, real-world expertise.",
+        text: "Experience matters more than anything in this field. A company with decades of work behind them understands materials, child safety, installation challenges, and long-term durability far better than a newer entrant. Maskeen Toys has been in operation **since 1948** — over 75 years of proven, real-world expertise.",
       },
       {
         type: "subheading4",
@@ -354,7 +354,7 @@ export const blogs = [
       },
       {
         type: "paragraph",
-        text: "Source: IndiaMART verified buyer ratings — Maskeen Overseas profile (live data)",
+        text: "Source: IndiaMART verified buyer ratings — Maskeen Toys profile (live data)",
       },
       {
         type: "subheading5",
@@ -366,11 +366,11 @@ export const blogs = [
       },
       {
         type: "subheading6",
-        text: "Established 1988 — Over 35 Years of Real Experience",
+        text: "Established 1948 — Over 75 Years of Real Experience",
       },
       {
         type: "paragraph",
-        text: "Maskeen Toys was established under Amrik Singh & Sons in 1988. That is a verified fact — listed on their IndiaMART profile, GST registration, and company history. Guided by the leadership of their CEO **Mr. Sahibjeet Singh**, the company has grown from a local manufacturer into a nationally recognised and internationally exporting brand.",
+        text: "Maskeen Toys was established under Amrik Singh & Sons in 1948. That is a verified fact — listed on their IndiaMART profile, GST registration, and company history. Guided by the leadership of their CEO **Mr. Sahibjeet Singh**, the company has grown from a local manufacturer into a nationally recognised and internationally exporting brand.",
       },
       {
         type: "subheading6",
@@ -418,7 +418,7 @@ export const blogs = [
       },
       {
         type: "paragraph",
-        text: "With a verified GST turnover of ₹1.5–5 Cr and over 35 years of manufacturing scale, Maskeen Toys offers pricing that is genuinely competitive — without ever cutting corners on child safety or material quality.",
+        text: "With a verified GST turnover of ₹1.5–5 Cr and over 75 years of manufacturing scale, Maskeen Toys offers pricing that is genuinely competitive — without ever cutting corners on child safety or material quality.",
       },
       {
         type: "subheading5",
@@ -526,13 +526,13 @@ export const blogs = [
         type: "faq",
         question: "Are the materials used by Maskeen Toys safe and certified?",
         answer:
-          "Yes. Maskeen Toys uses non-toxic, fire-retardant, child-safe materials in all products. They have maintained this standard since 1988 and are TrustSEAL verified on IndiaMART — an independent certification covering business legitimacy and product credibility.",
+          "Yes. Maskeen Toys uses non-toxic, fire-retardant, child-safe materials in all products. They have maintained this standard since 1948 and are TrustSEAL verified on IndiaMART — an independent certification covering business legitimacy and product credibility.",
       },
       {
         type: "faq",
         question: "Does Maskeen Toys offer after-sales support and maintenance?",
         answer:
-          "Yes. They provide after-sales support and maintenance services. With 35+ years in business and an 89% response rate on IndiaMART, they are a long-term partner — not a one-time transaction vendor.",
+          "Yes. They provide after-sales support and maintenance services. With 75+ years in business and an 89% response rate on IndiaMART, they are a long-term partner — not a one-time transaction vendor.",
       },
       {
         type: "faq",
@@ -544,7 +544,7 @@ export const blogs = [
         type: "faq",
         question: "How do I contact Maskeen Toys for a free consultation?",
         answer:
-          "You can reach them via their IndiaMART listing (search Maskeen Overseas on IndiaMART), visit maskeentoys.in, or call them directly at their Kirti Nagar, New Delhi office. Free consultation and site visits are available across Delhi NCR.",
+          "You can reach them via their IndiaMART listing (search Maskeen Toys on IndiaMART), visit maskeentoys.in, or call them directly at their Kirti Nagar, New Delhi office. Free consultation and site visits are available across Delhi NCR.",
       },
       {
         type: "heading",
@@ -560,7 +560,7 @@ export const blogs = [
       },
       {
         type: "paragraph",
-        text: "That is exactly what Maskeen Toys has delivered — consistently — since 1988.",
+        text: "That is exactly what Maskeen Toys has delivered — consistently — since 1948.",
       },
       {
         type: "paragraph",
@@ -580,7 +580,7 @@ export const blogs = [
       metaDescription:"Looking for the best soft play equipment for kids in Delhi? Complete guide to indoor playgrounds, toddler play zones & commercial play structures by Maskeen Toys.",
     excerpt:
       "You have a space — a school corner, a mall floor, a daycare room, or a full venue. And you want to turn it into something kids run toward the moment they walk in.",
-    image: "/home/blog2.png",
+    image: "/home/blog2.webp",
     date: "2026-06-08",
     author: "Maskeen Toys",
     category: "Buying Guide",
@@ -611,7 +611,7 @@ export const blogs = [
       },
       {
         type: "image",
-        src: "/about/colorful-playroom.jpeg",
+        src: "/about/colorful-playroom.webp",
         alt: "Child climbing on a soft play structure",
       },
       {
@@ -684,7 +684,7 @@ export const blogs = [
       },
       {
         type: "paragraph",
-        text: "Ask how long they’ve been in this business. Have they supplied to schools, malls, resorts, or hospitals? Can they show you installed projects in real locations you can actually visit? A manufacturer with 37+ years in the field will have answers ready — a new vendor won’t.",
+        text: "Ask how long they’ve been in this business. Have they supplied to schools, malls, resorts, or hospitals? Can they show you installed projects in real locations you can actually visit? A manufacturer with 75+ years in the field will have answers ready — a new vendor won’t.",
       },
       {
         type: "paragraph",
@@ -720,12 +720,12 @@ export const blogs = [
       },
       {
         type: "image",
-        src: "/home/about-right.jpeg",
+        src: "/home/about-right.webp",
         alt: "Child climbing on a soft play structure",
       },
       {
         type: "subheading5",
-        text: "Introducing Maskeen Toys — a name built on 37+ years of real work",
+        text: "Introducing Maskeen Toys — a name built on 75+ years of real work",
       },
       {
         type: "paragraph",
@@ -733,7 +733,7 @@ export const blogs = [
       },
       {
         type: "paragraph",
-        text: "With 37+ years of experience in the children’s play equipment industry, Maskeen Toys has designed and installed play zones across schools, malls, hospitals, resorts, daycare centers, and family entertainment venues all over India. That kind of experience doesn’t just mean they know how to build things — it means they’ve already solved problems you haven’t encountered yet.",
+        text: "With 75+ years of experience in the children’s play equipment industry, Maskeen Toys has designed and installed play zones across schools, malls, hospitals, resorts, daycare centers, and family entertainment venues all over India. That kind of experience doesn’t just mean they know how to build things — it means they’ve already solved problems you haven’t encountered yet.",
       },
       {
         type: "paragraph",
@@ -799,7 +799,7 @@ export const blogs = [
       },
       {
         type: "image",
-        src: "/home/blog2.png",
+        src: "/home/blog2.webp",
         alt: "Child climbing on a soft play structure",
       },
       {
@@ -876,7 +876,7 @@ export const blogs = [
       },
       {
         type: "paragraph",
-        text: "Delhi has no shortage of vendors. But when it comes to genuinely good [soft play equipment for kids](/contact) — backed by real experience, strong design capability, and long-term service commitment — Maskeen Toys is a name worth shortlisting. With 37+ years in this field and installations across the country, they bring practical knowledge that newer vendors simply don’t have.",
+        text: "Delhi has no shortage of vendors. But when it comes to genuinely good [soft play equipment for kids](/contact) — backed by real experience, strong design capability, and long-term service commitment — Maskeen Toys is a name worth shortlisting. With 75+ years in this field and installations across the country, they bring practical knowledge that newer vendors simply don’t have.",
       },
       {
         type: "paragraph",
@@ -896,7 +896,7 @@ export const blogs = [
       metaDescription:"Looking for a trusted soft play area manufacturer? Maskeen Toys designs safe, colorful, and custom indoor play zones for kids. Durable materials, GMP standards, pan-India delivery.",
     excerpt:
       "You just opened a kids café. Or maybe you’re setting up a play zone in your mall. You’ve done everything right — the location, the interior, the menu. But one thing is still missing.",
-    image: "/home/playarea-2.png",
+    image: "/home/playarea-2.webp",
     date: "2026-06-08",
     author: "Maskeen Toys",
     category: "Manufacturing",
@@ -1256,7 +1256,7 @@ export const blogs = [
       metaDescription:"Here at Maskeen Toys, we design and manufacture safe, high-quality soft play area equipment for Indian indoor play centres, schools, play centres, and recreation centres.",
     excerpt:
       "Soft Play – The Safe, Fun & Creative World for Kids Soft Play – The Safe, Fun & Creative World for Kids When kids play, enjoyment and safety should accompany each other.",
-    image: "/about/colorful-playroom.jpeg",
+    image: "/about/colorful-playroom.webp",
     date: "2025-11-03",
     author: "Maskeen Toys",
     category: "Manufacturing",

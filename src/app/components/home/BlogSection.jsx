@@ -6,7 +6,7 @@ import Link from "next/link";
 const blogs = [
   {
     id: 1,
-    image: "/home/about-right.jpeg",
+    image: "/home/about-right.webp",
     title:
       "Complete Soft Play Area Solutions In Delhi — Build A Safe, Colorful & Fun World For Your Kids",
     desc: "Are you planning to set up a play area for",
@@ -14,7 +14,7 @@ const blogs = [
   },
   {
     id: 2,
-    image: "/home/blog2.png",
+    image: "/home/blog2.webp",
     title:
       "Soft Play Equipment For Kids: Complete Guide To Indoor Playgrounds, Play Zones & Choosing The Right Manufacturer In Delhi",
     desc: "You have a space — a school corner, a mall",
@@ -22,7 +22,7 @@ const blogs = [
   },
   {
     id: 3,
-    image: "/home/playarea-2.png",
+    image: "/home/playarea-2.webp",
     title:
       "Top Soft Play Area Manufacturer Creating Safe And Engaging Kids Play Zones In Delhi 2026",
     desc: "You just opened a kids café. Or maybe you're setting",
@@ -34,7 +34,7 @@ export default function BlogSection() {
   return (
     <section className="relative overflow-hidden py-10 lg:py-14">
       <Image
-        src="/home/bg1.jpg"
+        src="/home/bg1.webp"
         alt=""
         fill
         className="-z-10 object-cover object-center pointer-events-none"

@@ -1,11 +1,11 @@
 export const landingPages = [
     {
         slug: "kids-play-zone",
-        title: "Kids Play Zone by maskeen Overseas – Where Fun, Learning & Safe Play Come Together",
+        title: "Kids Play Zone by Maskeen Toys – Where Fun, Learning & Safe Play Come Together",
         metaTitle: "Kids Play Zone | Safe Indoor Play Area for Fun & Birthday Parties ",
         metaDescription:
             "Explore for a Kids Play Zone? Explore a safe and engaging indoor play area with exciting games, interactive activities, birthday party packages, and memorable experiences for children of all ages.",
-        image: "/products/toddler-set.png",
+        image: "/products/toddler-set.webp",
         content: [
             {
                 type: "heading",
@@ -13,7 +13,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Every child deserves a place where they can laugh, explore, and create unforgettable memories. At **Maskeen Overseas**, we have created a modern Kids Play Zone that combines fun, creativity, physical activity, and learning in one safe and exciting environment. Our play zone is thoughtfully designed to encourage children to stay active, develop social skills, improve confidence, and enjoy quality time with family and friends.",
+                text: "Every child deserves a place where they can laugh, explore, and create unforgettable memories. At **Maskeen Toys**, we have created a modern Kids Play Zone that combines fun, creativity, physical activity, and learning in one safe and exciting environment. Our play zone is thoughtfully designed to encourage children to stay active, develop social skills, improve confidence, and enjoy quality time with family and friends.",
             },
             {
                 type: "paragraph",
@@ -21,7 +21,7 @@ export const landingPages = [
             },
             {
                 type: "heading",
-                text: "Why Choose maskeen Overseas Kids Play Zone?",
+                text: "Why Choose Maskeen Toys Kids Play Zone?",
             },
             {
                 type: "paragraph",
@@ -29,7 +29,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **maskeen Overseas**, we understand what modern families expect from a children's entertainment destination. That's why our Kids Play Zone focuses on safety, cleanliness, age-appropriate activities, and a welcoming atmosphere where every child feels comfortable.",
+                text: "At **Maskeen Toys**, we understand what modern families expect from a children's entertainment destination. That's why our Kids Play Zone focuses on safety, cleanliness, age-appropriate activities, and a welcoming atmosphere where every child feels comfortable.",
             },
             {
                 type: "subheading",
@@ -123,7 +123,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Every visit to maskeen Overseas Kids Play Zone brings a new adventure.",
+                text: "Every visit to Maskeen Toys Kids Play Zone brings a new adventure.",
             },
             {
                 type: "paragraph",
@@ -211,7 +211,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At maskeen Overseas, every activity is designed to help children improve:",
+                text: "At Maskeen Toys, every activity is designed to help children improve:",
             },
             {
                 type: "subheading4",
@@ -263,7 +263,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "maskeen Overseas offers families an opportunity to spend meaningful time together while children enjoy exciting activities in a safe indoor environment.",
+                text: "Maskeen Toys offers families an opportunity to spend meaningful time together while children enjoy exciting activities in a safe indoor environment.",
             },
             {
                 type: "paragraph",
@@ -315,7 +315,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "maskeen Overseas offers exciting birthday party experiences filled with fun, laughter, games, and unforgettable moments.",
+                text: "Maskeen Toys offers exciting birthday party experiences filled with fun, laughter, games, and unforgettable moments.",
             },
             {
                 type: "paragraph",
@@ -344,7 +344,7 @@ export const landingPages = [
             },
             {
                 type: "heading",
-                text: "Why Parents Choose maskeen Overseas Again and Again",
+                text: "Why Parents Choose Maskeen Toys Again and Again",
             },
             {
                 type: "paragraph",
@@ -352,7 +352,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Families return to maskeen Overseas because we consistently provide:",
+                text: "Families return to Maskeen Toys because we consistently provide:",
             },
             {
                 type: "list",
@@ -377,7 +377,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Today's children spend more time on mobile devices than ever before. While technology has its benefits, active play remains essential for healthy growth. At maskeen Overseas, we encourage children to move, explore, interact, and create real-world experiences instead of spending hours in front of screens.",
+                text: "Today's children spend more time on mobile devices than ever before. While technology has its benefits, active play remains essential for healthy growth. At Maskeen Toys, we encourage children to move, explore, interact, and create real-world experiences instead of spending hours in front of screens.",
             },
             {
                 type: "paragraph",
@@ -385,11 +385,11 @@ export const landingPages = [
             },
             {
                 type: "heading",
-                text: "Why maskeen Overseas is the Preferred Kids Play Zone",
+                text: "Why Maskeen Toys is the Preferred Kids Play Zone",
             },
             {
                 type: "paragraph",
-                text: "At maskeen Overseas, we believe every child deserves a place where they can play freely, learn naturally, and create wonderful memories. Our Kids Play Zone is thoughtfully designed to provide a balance of fun, safety, creativity, and physical activity. Every corner of our facility is planned with children's comfort and development in mind, ensuring they enjoy every visit while parents feel completely confident about their safety.",
+                text: "At Maskeen Toys, we believe every child deserves a place where they can play freely, learn naturally, and create wonderful memories. Our Kids Play Zone is thoughtfully designed to provide a balance of fun, safety, creativity, and physical activity. Every corner of our facility is planned with children's comfort and development in mind, ensuring they enjoy every visit while parents feel completely confident about their safety.",
             },
             {
                 type: "paragraph",
@@ -490,7 +490,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "A birthday is one of the most exciting days in a child's life, and at maskeen Overseas, we make it even more memorable.",
+                text: "A birthday is one of the most exciting days in a child's life, and at Maskeen Toys, we make it even more memorable.",
             },
             {
                 type: "paragraph",
@@ -550,7 +550,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Throughout the year, maskeen Overseas hosts special events that make every visit unique.",
+                text: "Throughout the year, Maskeen Toys hosts special events that make every visit unique.",
             },
             {
                 type: "paragraph",
@@ -583,7 +583,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At maskeen Overseas, we strive to create moments filled with laughter, excitement, and discovery. Watching a child conquer a climbing wall for the first time, make a new friend, or celebrate a birthday surrounded by loved ones is what makes our work meaningful.",
+                text: "At Maskeen Toys, we strive to create moments filled with laughter, excitement, and discovery. Watching a child conquer a climbing wall for the first time, make a new friend, or celebrate a birthday surrounded by loved ones is what makes our work meaningful.",
             },
             {
                 type: "paragraph",
@@ -626,7 +626,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Families choose maskeen Overseas because they value a place where children are welcomed with warmth and care.",
+                text: "Families choose Maskeen Toys because they value a place where children are welcomed with warmth and care.",
             },
             {
                 type: "paragraph",
@@ -701,17 +701,17 @@ export const landingPages = [
             },
             {
                 type: "faq",
-                question: "Why should I choose maskeen Overseas?",
+                question: "Why should I choose Maskeen Toys?",
                 answer:
-                    "maskeen Overseas combines safety, quality, engaging activities, friendly service, and a child-focused environment to create memorable experiences for every family.",
+                    "Maskeen Toys combines safety, quality, engaging activities, friendly service, and a child-focused environment to create memorable experiences for every family.",
             },
             {
                 type: "heading",
-                text: "Visit maskeen Overseas Kids Play Zone Today",
+                text: "Visit Maskeen Toys Kids Play Zone Today",
             },
             {
                 type: "paragraph",
-                text: "Every smile, every laugh, and every new friendship begins with a great play experience. At maskeen Overseas, we are dedicated to creating a welcoming environment where children can explore, learn, and have fun while parents enjoy complete peace of mind.",
+                text: "Every smile, every laugh, and every new friendship begins with a great play experience. At Maskeen Toys, we are dedicated to creating a welcoming environment where children can explore, learn, and have fun while parents enjoy complete peace of mind.",
             },
             {
                 type: "paragraph",
@@ -725,11 +725,11 @@ export const landingPages = [
     },
     {
         slug: "indoor-play-area-setup-in-delhi-2",
-        title: "Indoor Play Area Setup in Delhi | Safe, Innovative & Custom Kids Play Solutions by Maskeen Overseas",
+        title: "Indoor Play Area Setup in Delhi | Safe, Innovative & Custom Kids Play Solutions by Maskeen Toys",
         metaTitle: "Indoor Play Area Setup in Delhi | Custom Kids Play Zone Solutions",
         metaDescription:
-            "Maskeen Overseas offers professional Indoor Play Area Setup in Delhi with customized kids play zones, soft play equipment, climbing structures, ball pools, and turnkey installation for schools, malls, and family entertainment centers.",
-        image: "/products/toddler-set.png",
+            "Maskeen Toys offers professional Indoor Play Area Setup in Delhi with customized kids play zones, soft play equipment, climbing structures, ball pools, and turnkey installation for schools, malls, and family entertainment centers.",
+        image: "/products/toddler-set.webp",
         content: [
             {
                 type: "heading",
@@ -737,11 +737,11 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "The demand for **Indoor Play Area Setup in Delhi** is growing rapidly as shopping malls, schools, daycare centers, restaurants, residential societies, and family entertainment centers look for safe, engaging, and innovative play spaces for children. At **Maskeen Overseas**, we specialize in designing, manufacturing, and installing premium indoor play areas that combine safety, creativity, durability, and modern design. Every project is customized according to your available space, target age group, business goals, and budget. Whether you're planning a compact kids' corner or a large indoor adventure park, our experienced team delivers complete turnkey solutions—from concept and 3D design to manufacturing, installation, and after-sales support—helping you create a play destination that children love and parents trust.",
+                text: "The demand for **Indoor Play Area Setup in Delhi** is growing rapidly as shopping malls, schools, daycare centers, restaurants, residential societies, and family entertainment centers look for safe, engaging, and innovative play spaces for children. At **Maskeen Toys**, we specialize in designing, manufacturing, and installing premium indoor play areas that combine safety, creativity, durability, and modern design. Every project is customized according to your available space, target age group, business goals, and budget. Whether you're planning a compact kids' corner or a large indoor adventure park, our experienced team delivers complete turnkey solutions—from concept and 3D design to manufacturing, installation, and after-sales support—helping you create a play destination that children love and parents trust.",
             },
             {
                 type: "heading",
-                text: "Why Choose Maskeen Overseas for Indoor Play Area Setup in Delhi?",
+                text: "Why Choose Maskeen Toys for Indoor Play Area Setup in Delhi?",
             },
             {
                 type: "paragraph",
@@ -749,7 +749,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, we combine years of industry knowledge with innovative design concepts to create indoor play environments that are both exciting and safe. Every project is carefully planned to maximize available space while encouraging physical activity, creativity, and social interaction.",
+                text: "At **Maskeen Toys**, we combine years of industry knowledge with innovative design concepts to create indoor play environments that are both exciting and safe. Every project is carefully planned to maximize available space while encouraging physical activity, creativity, and social interaction.",
             },
             {
                 type: "subheading",
@@ -780,7 +780,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, we provide end-to-end indoor play area solutions under one roof.",
+                text: "At **Maskeen Toys**, we provide end-to-end indoor play area solutions under one roof.",
             },
             {
                 type: "paragraph",
@@ -827,7 +827,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Maskeen Overseas provides customized indoor play area setups for:",
+                text: "Maskeen Toys provides customized indoor play area setups for:",
             },
             {
                 type: "subheading",
@@ -895,7 +895,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "For entrepreneurs planning to launch a commercial kids' entertainment business, Maskeen Overseas provides complete indoor play zone solutions designed to attract families and encourage repeat visits.",
+                text: "For entrepreneurs planning to launch a commercial kids' entertainment business, Maskeen Toys provides complete indoor play zone solutions designed to attract families and encourage repeat visits.",
             },
             {
                 type: "heading",
@@ -948,7 +948,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Safety is never treated as an optional feature at Maskeen Overseas.",
+                text: "Safety is never treated as an optional feature at Maskeen Toys.",
             },
             {
                 type: "paragraph",
@@ -1014,7 +1014,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At Maskeen Overseas, we believe every activity should support child development.",
+                text: "At Maskeen Toys, we believe every activity should support child development.",
             },
             {
                 type: "paragraph",
@@ -1188,7 +1188,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, quality is never compromised. Every **Indoor Play Area Setup in Delhi** is manufactured using premium-grade materials that are selected for durability, safety, and long-term performance. Our manufacturing team follows strict quality control procedures at every stage—from raw material selection to final installation.",
+                text: "At **Maskeen Toys**, quality is never compromised. Every **Indoor Play Area Setup in Delhi** is manufactured using premium-grade materials that are selected for durability, safety, and long-term performance. Our manufacturing team follows strict quality control procedures at every stage—from raw material selection to final installation.",
             },
             {
                 type: "paragraph",
@@ -1277,7 +1277,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, our relationship with customers continues long after installation.",
+                text: "At **Maskeen Toys**, our relationship with customers continues long after installation.",
             },
             {
                 type: "paragraph",
@@ -1417,11 +1417,11 @@ export const landingPages = [
             },
             {
                 type: "heading",
-                text: "Why Businesses Choose Maskeen Overseas",
+                text: "Why Businesses Choose Maskeen Toys",
             },
             {
                 type: "paragraph",
-                text: "Businesses choose **Maskeen Overseas** because we focus on long-term quality rather than short-term solutions.",
+                text: "Businesses choose **Maskeen Toys** because we focus on long-term quality rather than short-term solutions.",
             },
             {
                 type: "paragraph",
@@ -1514,7 +1514,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Whether you're planning a new family entertainment center, upgrading an existing kids' zone, or adding a play area to your commercial space, Maskeen Overseas is ready to help. From the initial concept and 3D design to manufacturing, installation, and ongoing support, we provide complete indoor play area solutions tailored to your goals.",
+                text: "Whether you're planning a new family entertainment center, upgrading an existing kids' zone, or adding a play area to your commercial space, Maskeen Toys is ready to help. From the initial concept and 3D design to manufacturing, installation, and ongoing support, we provide complete indoor play area solutions tailored to your goals.",
             },
             {
                 type: "paragraph",
@@ -1522,17 +1522,17 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Contact Maskeen Overseas today to discuss your project, request a consultation, and take the first step toward creating an exceptional indoor play destination.",
+                text: "Contact Maskeen Toys today to discuss your project, request a consultation, and take the first step toward creating an exceptional indoor play destination.",
             },
         ],
     },
     {
         slug: "soft-play-equipment-for-kids",
-        title: "Soft Play Equipment for Kids | Safe, Creative & Premium Indoor Play Solutions by Maskeen Overseas",
-        metaTitle: "Soft Play Equipment for Kids | Safe Indoor Play Solutions | Maskeen Overseas",
+        title: "Soft Play Equipment for Kids | Safe, Creative & Premium Indoor Play Solutions by Maskeen Toys",
+        metaTitle: "Soft Play Equipment for Kids | Safe Indoor Play Solutions | Maskeen Toys",
         metaDescription:
-            "Explore premium Soft Play Equipment for Kids by Maskeen Overseas. We design, manufacture, and install safe, durable, and customized indoor play equipment for schools, daycare centres, malls, restaurants, and family entertainment spaces.",
-        image: "/products/toddler-set.png",
+            "Explore premium Soft Play Equipment for Kids by Maskeen Toys. We design, manufacture, and install safe, durable, and customized indoor play equipment for schools, daycare centres, malls, restaurants, and family entertainment spaces.",
+        image: "/products/toddler-set.webp",
         content: [
             {
                 type: "heading",
@@ -1540,7 +1540,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Finding the right **Soft Play Equipment for Kids** is about much more than choosing colorful slides or climbing structures. It is about creating a safe environment where children can develop confidence, improve physical fitness, build social skills, and enjoy endless fun. At **Maskeen Overseas**, we specialize in designing, manufacturing, and installing premium **Soft Play Equipment for Kids** that combines safety, durability, creativity, and modern design.",
+                text: "Finding the right **Soft Play Equipment for Kids** is about much more than choosing colorful slides or climbing structures. It is about creating a safe environment where children can develop confidence, improve physical fitness, build social skills, and enjoy endless fun. At **Maskeen Toys**, we specialize in designing, manufacturing, and installing premium **Soft Play Equipment for Kids** that combines safety, durability, creativity, and modern design.",
             },
             {
                 type: "paragraph",
@@ -1548,11 +1548,11 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Whether you want to build a small indoor play corner or a complete multi-level soft play zone, **Maskeen Overseas** provides complete turnkey solutions—from planning and 3D design to manufacturing, installation, and after-sales support.",
+                text: "Whether you want to build a small indoor play corner or a complete multi-level soft play zone, **Maskeen Toys** provides complete turnkey solutions—from planning and 3D design to manufacturing, installation, and after-sales support.",
             },
             {
                 type: "heading",
-                text: "Why Choose Maskeen Overseas for Soft Play Equipment for Kids?",
+                text: "Why Choose Maskeen Toys for Soft Play Equipment for Kids?",
             },
             {
                 type: "paragraph",
@@ -1560,7 +1560,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, we don't simply manufacture play equipment—we create complete indoor play environments that help businesses attract families while providing children with meaningful and enjoyable experiences.",
+                text: "At **Maskeen Toys**, we don't simply manufacture play equipment—we create complete indoor play environments that help businesses attract families while providing children with meaningful and enjoyable experiences.",
             },
             {
                 type: "subheading",
@@ -1702,7 +1702,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, we manufacture a complete range of indoor soft play equipment suitable for different age groups.",
+                text: "At **Maskeen Toys**, we manufacture a complete range of indoor soft play equipment suitable for different age groups.",
             },
             {
                 type: "paragraph",
@@ -1818,7 +1818,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, safety is built into every product we manufacture.",
+                text: "At **Maskeen Toys**, safety is built into every product we manufacture.",
             },
             {
                 type: "paragraph",
@@ -2082,7 +2082,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, every indoor play project begins with one simple goal—creating a safe, engaging, and long-lasting play environment that children genuinely enjoy. Our experienced design and manufacturing team carefully plans each project based on the available space, age group, customer requirements, and expected visitor capacity.",
+                text: "At **Maskeen Toys**, every indoor play project begins with one simple goal—creating a safe, engaging, and long-lasting play environment that children genuinely enjoy. Our experienced design and manufacturing team carefully plans each project based on the available space, age group, customer requirements, and expected visitor capacity.",
             },
             {
                 type: "paragraph",
@@ -2098,7 +2098,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Quality is the foundation of every product manufactured by **Maskeen Overseas**.",
+                text: "Quality is the foundation of every product manufactured by **Maskeen Toys**.",
             },
             {
                 type: "paragraph",
@@ -2288,7 +2288,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "That's why Maskeen Overseas provides customized design solutions based on:",
+                text: "That's why Maskeen Toys provides customized design solutions based on:",
             },
             {
                 type: "list",
@@ -2308,11 +2308,11 @@ export const landingPages = [
             },
             {
                 type: "heading",
-                text: "Why Businesses Trust Maskeen Overseas",
+                text: "Why Businesses Trust Maskeen Toys",
             },
             {
                 type: "paragraph",
-                text: "Businesses choose Maskeen Overseas because we focus on delivering complete solutions rather than simply supplying equipment.",
+                text: "Businesses choose Maskeen Toys because we focus on delivering complete solutions rather than simply supplying equipment.",
             },
             {
                 type: "paragraph",
@@ -2407,17 +2407,17 @@ export const landingPages = [
             },
             {
                 type: "faq",
-                question: "Why choose Maskeen Overseas?",
+                question: "Why choose Maskeen Toys?",
                 answer:
-                    "Maskeen Overseas combines modern design, premium materials, child-safe engineering, professional installation, and reliable customer support to deliver complete indoor play solutions.",
+                    "Maskeen Toys combines modern design, premium materials, child-safe engineering, professional installation, and reliable customer support to deliver complete indoor play solutions.",
             },
             {
                 type: "heading",
-                text: "Build a Safe & Exciting Play Space with Maskeen Overseas",
+                text: "Build a Safe & Exciting Play Space with Maskeen Toys",
             },
             {
                 type: "paragraph",
-                text: "Whether you're setting up a children's play corner in a preschool, adding a family-friendly attraction to a shopping mall, or launching a new indoor play centre, **Maskeen Overseas** provides complete **Soft Play Equipment for Kids** solutions tailored to your vision.",
+                text: "Whether you're setting up a children's play corner in a preschool, adding a family-friendly attraction to a shopping mall, or launching a new indoor play centre, **Maskeen Toys** provides complete **Soft Play Equipment for Kids** solutions tailored to your vision.",
             },
             {
                 type: "paragraph",
@@ -2429,17 +2429,17 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "**Contact Maskeen Overseas today** to discuss your project and discover how we can bring your indoor play area to life.",
+                text: "**Contact Maskeen Toys today** to discuss your project and discover how we can bring your indoor play area to life.",
             },
         ],
     },
     {
         slug: "play-area-manufacturer-in-delhi",
-        title: "Play Area Manufacturer in Delhi | Premium Indoor & Outdoor Play Area Solutions by Maskeen Overseas",
+        title: "Play Area Manufacturer in Delhi | Premium Indoor & Outdoor Play Area Solutions by Maskeen Toys",
         metaTitle: "Play Area Manufacturer in Delhi | Indoor & Outdoor Play Equipment",
         metaDescription:
-            "Choose Maskeen Overseas for Play Area Manufacturing in Delhi. We provide safe, innovative, and customized playground equipment with expert design, quality manufacturing, professional installation, and dependable after-sales support.",
-        image: "/products/toddler-set.png",
+            "Choose Maskeen Toys for Play Area Manufacturing in Delhi. We provide safe, innovative, and customized playground equipment with expert design, quality manufacturing, professional installation, and dependable after-sales support.",
+        image: "/products/toddler-set.webp",
         content: [
             {
                 type: "heading",
@@ -2451,15 +2451,15 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, we specialize in designing, manufacturing, and installing premium indoor and outdoor play areas that combine creativity, safety, durability, and modern engineering. Our experienced team works closely with schools, builders, architects, developers, daycare centres, hotels, restaurants, hospitals, and commercial businesses to deliver customized playground solutions that inspire children to play, learn, explore, and grow.",
+                text: "At **Maskeen Toys**, we specialize in designing, manufacturing, and installing premium indoor and outdoor play areas that combine creativity, safety, durability, and modern engineering. Our experienced team works closely with schools, builders, architects, developers, daycare centres, hotels, restaurants, hospitals, and commercial businesses to deliver customized playground solutions that inspire children to play, learn, explore, and grow.",
             },
             {
                 type: "paragraph",
-                text: "From concept planning and 3D design to manufacturing, installation, and after-sales support, Maskeen Overseas provides complete turnkey playground solutions that meet international safety standards while creating memorable play experiences for children of every age group.",
+                text: "From concept planning and 3D design to manufacturing, installation, and after-sales support, Maskeen Toys provides complete turnkey playground solutions that meet international safety standards while creating memorable play experiences for children of every age group.",
             },
             {
                 type: "heading",
-                text: "Why Maskeen Overseas is a Trusted Play Area Manufacturer in Delhi",
+                text: "Why Maskeen Toys is a Trusted Play Area Manufacturer in Delhi",
             },
             {
                 type: "paragraph",
@@ -2467,7 +2467,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, we believe every play area should encourage children to stay active while ensuring complete safety. Our focus is on designing engaging play environments that are visually attractive, structurally strong, and suitable for long-term commercial use.",
+                text: "At **Maskeen Toys**, we believe every play area should encourage children to stay active while ensuring complete safety. Our focus is on designing engaging play environments that are visually attractive, structurally strong, and suitable for long-term commercial use.",
             },
             {
                 type: "subheading",
@@ -2498,7 +2498,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Every successful playground begins with proper planning. At Maskeen Overseas, we provide complete project management from the first consultation to the final handover.",
+                text: "Every successful playground begins with proper planning. At Maskeen Toys, we provide complete project management from the first consultation to the final handover.",
             },
             {
                 type: "subheading",
@@ -2529,7 +2529,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Different businesses have different requirements. That's why every project at Maskeen Overseas is designed according to the client's objectives, available space, budget, and target audience.",
+                text: "Different businesses have different requirements. That's why every project at Maskeen Toys is designed according to the client's objectives, available space, budget, and target audience.",
             },
             {
                 type: "subheading",
@@ -2621,7 +2621,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Planning a commercial kids' play zone? Maskeen Overseas provides complete indoor and outdoor play solutions designed to maximize customer engagement while maintaining high safety standards.",
+                text: "Planning a commercial kids' play zone? Maskeen Toys provides complete indoor and outdoor play solutions designed to maximize customer engagement while maintaining high safety standards.",
             },
             {
                 type: "heading",
@@ -2737,7 +2737,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Every playground manufactured by **Maskeen Overseas** follows strict safety practices during design, manufacturing, and installation.",
+                text: "Every playground manufactured by **Maskeen Toys** follows strict safety practices during design, manufacturing, and installation.",
             },
             {
                 type: "paragraph",
@@ -2977,7 +2977,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, we believe that a successful playground begins with thoughtful design, precision manufacturing, and uncompromising safety. As a trusted **Play Area Manufacturer in Delhi**, we combine engineering expertise with creative design to develop play environments that inspire children while meeting the practical needs of schools, commercial spaces, and recreational facilities.",
+                text: "At **Maskeen Toys**, we believe that a successful playground begins with thoughtful design, precision manufacturing, and uncompromising safety. As a trusted **Play Area Manufacturer in Delhi**, we combine engineering expertise with creative design to develop play environments that inspire children while meeting the practical needs of schools, commercial spaces, and recreational facilities.",
             },
             {
                 type: "paragraph",
@@ -2993,7 +2993,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Quality is not just a process at Maskeen Overseas—it is part of our commitment to every customer.",
+                text: "Quality is not just a process at Maskeen Toys—it is part of our commitment to every customer.",
             },
             {
                 type: "paragraph",
@@ -3030,7 +3030,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Maskeen Overseas uses premium-grade materials including:",
+                text: "Maskeen Toys uses premium-grade materials including:",
             },
             {
                 type: "list",
@@ -3092,7 +3092,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Maskeen Overseas provides complete after-sales assistance to ensure playground equipment continues performing efficiently.",
+                text: "Maskeen Toys provides complete after-sales assistance to ensure playground equipment continues performing efficiently.",
             },
             {
                 type: "paragraph",
@@ -3117,11 +3117,11 @@ export const landingPages = [
             },
             {
                 type: "heading",
-                text: "Why Businesses Trust Maskeen Overseas",
+                text: "Why Businesses Trust Maskeen Toys",
             },
             {
                 type: "paragraph",
-                text: "Choosing a playground manufacturer is a long-term investment. Businesses trust Maskeen Overseas because we focus on quality, transparency, and customer satisfaction at every stage of the project.",
+                text: "Choosing a playground manufacturer is a long-term investment. Businesses trust Maskeen Toys because we focus on quality, transparency, and customer satisfaction at every stage of the project.",
             },
             {
                 type: "subheading",
@@ -3160,7 +3160,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Customers often appreciate the attention to detail, smooth installation process, and durable equipment provided by Maskeen Overseas. Project outcomes naturally vary depending on factors such as visitor traffic, maintenance, and operating conditions, but our focus always remains on delivering safe, attractive, and reliable play environments.",
+                text: "Customers often appreciate the attention to detail, smooth installation process, and durable equipment provided by Maskeen Toys. Project outcomes naturally vary depending on factors such as visitor traffic, maintenance, and operating conditions, but our focus always remains on delivering safe, attractive, and reliable play environments.",
             },
             {
                 type: "heading",
@@ -3168,7 +3168,7 @@ export const landingPages = [
             },
             {
                 type: "faq",
-                question: "What services does Maskeen Overseas provide?",
+                question: "What services does Maskeen Toys provide?",
                 answer:
                     "We provide complete playground solutions including design, manufacturing, installation, inspection, and after-sales support for indoor and outdoor play areas.",
             },
@@ -3222,13 +3222,13 @@ export const landingPages = [
             },
             {
                 type: "faq",
-                question: "Why choose Maskeen Overseas?",
+                question: "Why choose Maskeen Toys?",
                 answer:
-                    "Maskeen Overseas offers complete playground solutions with custom designs, quality manufacturing, professional installation, and dependable customer support—all under one roof.",
+                    "Maskeen Toys offers complete playground solutions with custom designs, quality manufacturing, professional installation, and dependable customer support—all under one roof.",
             },
             {
                 type: "heading",
-                text: "Build Your Dream Play Area with Maskeen Overseas",
+                text: "Build Your Dream Play Area with Maskeen Toys",
             },
             {
                 type: "paragraph",
@@ -3236,7 +3236,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Whether you're planning a new school playground, a children's play zone in a shopping mall, a residential community park, or a commercial entertainment centre, **Maskeen Overseas** is your trusted partner for complete playground solutions.",
+                text: "Whether you're planning a new school playground, a children's play zone in a shopping mall, a residential community park, or a commercial entertainment centre, **Maskeen Toys** is your trusted partner for complete playground solutions.",
             },
             {
                 type: "paragraph",
@@ -3248,17 +3248,17 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "**Contact Maskeen Overseas today** to discuss your project, request a customized quotation, and start building a playground that children will enjoy for years to come.",
+                text: "**Contact Maskeen Toys today** to discuss your project, request a customized quotation, and start building a playground that children will enjoy for years to come.",
             },
         ],
     },
     {
         slug: "custom-soft-play-area-in-delhi",
-        title: "Custom Soft Play Area in Delhi | Premium Indoor Play Solutions by Maskeen Overseas",
+        title: "Custom Soft Play Area in Delhi | Premium Indoor Play Solutions by Maskeen Toys",
         metaTitle: "Custom Soft Play Area in Delhi | Safe Kids Play Solutions",
         metaDescription:
-            "Maskeen Overseas offers Custom Soft Play Area solutions in Delhi with premium soft play equipment, creative layouts, child-safe materials, professional installation, and complete turnkey services for commercial and educational spaces.",
-        image: "/products/toddler-set.png",
+            "Maskeen Toys offers Custom Soft Play Area solutions in Delhi with premium soft play equipment, creative layouts, child-safe materials, professional installation, and complete turnkey services for commercial and educational spaces.",
+        image: "/products/toddler-set.webp",
         content: [
             {
                 type: "heading",
@@ -3270,15 +3270,15 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, we specialize in designing, manufacturing, and installing **Custom Soft Play Areas in Delhi** that combine innovative design, premium-quality materials, international safety standards, and modern engineering. Every project is designed according to your available space, target age group, business goals, and brand identity. From compact indoor play corners to large multi-level adventure play systems, our team delivers complete turnkey solutions that create exciting experiences for children while providing long-term value for businesses.",
+                text: "At **Maskeen Toys**, we specialize in designing, manufacturing, and installing **Custom Soft Play Areas in Delhi** that combine innovative design, premium-quality materials, international safety standards, and modern engineering. Every project is designed according to your available space, target age group, business goals, and brand identity. From compact indoor play corners to large multi-level adventure play systems, our team delivers complete turnkey solutions that create exciting experiences for children while providing long-term value for businesses.",
             },
             {
                 type: "paragraph",
-                text: "With years of experience in children's play equipment manufacturing, **Maskeen Overseas** has become a trusted name for customized indoor playground solutions that are safe, durable, visually appealing, and built to perform for years.",
+                text: "With years of experience in children's play equipment manufacturing, **Maskeen Toys** has become a trusted name for customized indoor playground solutions that are safe, durable, visually appealing, and built to perform for years.",
             },
             {
                 type: "heading",
-                text: "Why Choose Maskeen Overseas for Custom Soft Play Area in Delhi?",
+                text: "Why Choose Maskeen Toys for Custom Soft Play Area in Delhi?",
             },
             {
                 type: "paragraph",
@@ -3286,7 +3286,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, we understand that every client has different requirements. That's why we never offer standard layouts. Instead, every **Custom Soft Play Area in Delhi** is carefully designed to match your available space, business objectives, visitor capacity, and children's age groups.",
+                text: "At **Maskeen Toys**, we understand that every client has different requirements. That's why we never offer standard layouts. Instead, every **Custom Soft Play Area in Delhi** is carefully designed to match your available space, business objectives, visitor capacity, and children's age groups.",
             },
             {
                 type: "paragraph",
@@ -3294,7 +3294,7 @@ export const landingPages = [
             },
             {
                 type: "subheading",
-                text: "Why Businesses Trust Maskeen Overseas",
+                text: "Why Businesses Trust Maskeen Toys",
             },
             {
                 type: "list",
@@ -3321,7 +3321,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, we provide everything required to create a successful indoor play area under one roof.",
+                text: "At **Maskeen Toys**, we provide everything required to create a successful indoor play area under one roof.",
             },
             {
                 type: "subheading",
@@ -3384,7 +3384,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Maskeen Overseas designs customized indoor play areas for various industries.",
+                text: "Maskeen Toys designs customized indoor play areas for various industries.",
             },
             {
                 type: "subheading",
@@ -3484,7 +3484,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Planning to open a commercial indoor play zone? Maskeen Overseas provides complete customized solutions designed for long-term business success.",
+                text: "Planning to open a commercial indoor play zone? Maskeen Toys provides complete customized solutions designed for long-term business success.",
             },
             {
                 type: "heading",
@@ -3608,7 +3608,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Safety is the foundation of every project at Maskeen Overseas.",
+                text: "Safety is the foundation of every project at Maskeen Toys.",
             },
             {
                 type: "paragraph",
@@ -3790,7 +3790,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, we believe that every successful indoor play area begins with thoughtful planning, precision engineering, and a deep understanding of how children play, learn, and interact. As a trusted provider of **Custom Soft Play Area in Delhi**, we don't simply install play equipment—we create complete indoor play environments that are safe, visually engaging, and built for long-term commercial use.",
+                text: "At **Maskeen Toys**, we believe that every successful indoor play area begins with thoughtful planning, precision engineering, and a deep understanding of how children play, learn, and interact. As a trusted provider of **Custom Soft Play Area in Delhi**, we don't simply install play equipment—we create complete indoor play environments that are safe, visually engaging, and built for long-term commercial use.",
             },
             {
                 type: "paragraph",
@@ -3848,7 +3848,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Maskeen Overseas uses carefully selected commercial-grade materials including:",
+                text: "Maskeen Toys uses carefully selected commercial-grade materials including:",
             },
             {
                 type: "list",
@@ -3935,11 +3935,11 @@ export const landingPages = [
             },
             {
                 type: "heading",
-                text: "Why Businesses Choose Maskeen Overseas",
+                text: "Why Businesses Choose Maskeen Toys",
             },
             {
                 type: "paragraph",
-                text: "Businesses across Delhi choose **Maskeen Overseas** because we deliver more than just playground equipment—we provide complete indoor play solutions backed by experience, quality, and professional service.",
+                text: "Businesses across Delhi choose **Maskeen Toys** because we deliver more than just playground equipment—we provide complete indoor play solutions backed by experience, quality, and professional service.",
             },
             {
                 type: "subheading",
@@ -4065,9 +4065,9 @@ export const landingPages = [
             },
             {
                 type: "faq",
-                question: "Why choose Maskeen Overseas?",
+                question: "Why choose Maskeen Toys?",
                 answer:
-                    "Maskeen Overseas combines innovative design, quality manufacturing, professional installation, and reliable after-sales support to deliver customized indoor play solutions that are safe, durable, and visually impressive.",
+                    "Maskeen Toys combines innovative design, quality manufacturing, professional installation, and reliable after-sales support to deliver customized indoor play solutions that are safe, durable, and visually impressive.",
             },
             {
                 type: "heading",
@@ -4075,7 +4075,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Whether you're planning a children's play area for a school, preschool, shopping mall, restaurant, residential community, or family entertainment centre, **Maskeen Overseas** is your trusted partner for complete indoor play solutions.",
+                text: "Whether you're planning a children's play area for a school, preschool, shopping mall, restaurant, residential community, or family entertainment centre, **Maskeen Toys** is your trusted partner for complete indoor play solutions.",
             },
             {
                 type: "paragraph",
@@ -4087,17 +4087,17 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "**Contact Maskeen Overseas today** for a personalized consultation and discover how we can help you build an indoor play area that combines creativity, safety, and long-term value.",
+                text: "**Contact Maskeen Toys today** for a personalized consultation and discover how we can help you build an indoor play area that combines creativity, safety, and long-term value.",
             },
         ],
     },
     {
         slug: "indoor-playground-manufacturer",
         title: "Indoor Playground Manufacturer | Premium Indoor Playground Equipment by Maskeen Toys",
-        metaTitle: "Indoor Playground Manufacturer | Custom Indoor Play Solutions | Maskeen Overseas",
+        metaTitle: "Indoor Playground Manufacturer | Custom Indoor Play Solutions | Maskeen Toys",
         metaDescription:
-            "Looking for a trusted Indoor Playground Manufacturer? Maskeen Overseas designs, manufactures, and installs premium indoor playground equipment with customized, safe, and durable solutions for schools, malls, daycare centres, restaurants, and family entertainment centres.",
-        image: "/products/toddler-set.png",
+            "Looking for a trusted Indoor Playground Manufacturer? Maskeen Toys designs, manufactures, and installs premium indoor playground equipment with customized, safe, and durable solutions for schools, malls, daycare centres, restaurants, and family entertainment centres.",
+        image: "/products/toddler-set.webp",
         content: [
             {
                 type: "heading",
@@ -4732,11 +4732,11 @@ export const landingPages = [
     },
     {
         slug: "play-area-fabricator",
-        title: "Play Area Fabricator | Custom Indoor & Outdoor Play Area Solutions by Maskeen Overseas",
+        title: "Play Area Fabricator | Custom Indoor & Outdoor Play Area Solutions by Maskeen Toys",
         metaTitle: " Play Area Fabricator | Custom Kids Play Zones & Equipment",
         metaDescription:
             "Trusted play area fabricator specializing in custom indoor & outdoor kids play zones. Durable, safe & creative designs. Get a free quote today!",
-        image: "/products/toddler-set.png",
+        image: "/products/toddler-set.webp",
         content: [
             {
                 type: "heading",
@@ -4748,11 +4748,11 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, we specialize in the **design, fabrication, manufacturing, and installation** of premium indoor and outdoor play areas for schools, preschools, residential societies, shopping malls, restaurants, daycare centres, hotels, hospitals, public parks, resorts, and family entertainment centres. Every project is carefully customized according to your available space, target age group, budget, and business goals.",
+                text: "At **Maskeen Toys**, we specialize in the **design, fabrication, manufacturing, and installation** of premium indoor and outdoor play areas for schools, preschools, residential societies, shopping malls, restaurants, daycare centres, hotels, hospitals, public parks, resorts, and family entertainment centres. Every project is carefully customized according to your available space, target age group, budget, and business goals.",
             },
             {
                 type: "paragraph",
-                text: "Whether you're planning a small children's activity corner or a large commercial playground, **Maskeen Overseas** delivers complete turnkey solutions—from site consultation and 3D design to fabrication, installation, quality inspection, and long-term after-sales support.",
+                text: "Whether you're planning a small children's activity corner or a large commercial playground, **Maskeen Toys** delivers complete turnkey solutions—from site consultation and 3D design to fabrication, installation, quality inspection, and long-term after-sales support.",
             },
             {
                 type: "paragraph",
@@ -4760,7 +4760,7 @@ export const landingPages = [
             },
             {
                 type: "heading",
-                text: "Why Choose Maskeen Overseas as Your Play Area Fabricator?",
+                text: "Why Choose Maskeen Toys as Your Play Area Fabricator?",
             },
             {
                 type: "paragraph",
@@ -4768,11 +4768,11 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, we combine modern manufacturing technology, experienced engineering, and child-focused design principles to create customized play areas that meet the needs of today's educational institutions, commercial spaces, and recreational facilities.",
+                text: "At **Maskeen Toys**, we combine modern manufacturing technology, experienced engineering, and child-focused design principles to create customized play areas that meet the needs of today's educational institutions, commercial spaces, and recreational facilities.",
             },
             {
                 type: "subheading",
-                text: "Why Clients Trust Maskeen Overseas",
+                text: "Why Clients Trust Maskeen Toys",
             },
             {
                 type: "list",
@@ -4799,7 +4799,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Unlike suppliers who only provide equipment, Maskeen Overseas manages the complete lifecycle of your playground project.",
+                text: "Unlike suppliers who only provide equipment, Maskeen Toys manages the complete lifecycle of your playground project.",
             },
             {
                 type: "subheading",
@@ -4948,7 +4948,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Launching a commercial play business? Maskeen Overseas provides complete fabrication solutions for indoor family entertainment centres with customized layouts and premium play equipment.",
+                text: "Launching a commercial play business? Maskeen Toys provides complete fabrication solutions for indoor family entertainment centres with customized layouts and premium play equipment.",
             },
             {
                 type: "heading",
@@ -5135,7 +5135,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Maskeen Overseas carefully selects commercial-grade materials that provide long service life and reliable performance.",
+                text: "Maskeen Toys carefully selects commercial-grade materials that provide long service life and reliable performance.",
             },
             {
                 type: "heading",
@@ -5231,7 +5231,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At Maskeen Overseas, every fabricated play area is designed to encourage holistic child development.",
+                text: "At Maskeen Toys, every fabricated play area is designed to encourage holistic child development.",
             },
             {
                 type: "subheading4",
@@ -5283,7 +5283,7 @@ export const landingPages = [
             },
             {
                 type: "heading",
-                text: "How Maskeen Overseas Converts Ideas into World-Class Play Areas",
+                text: "How Maskeen Toys Converts Ideas into World-Class Play Areas",
             },
             {
                 type: "paragraph",
@@ -5291,7 +5291,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, our role as a **Play Area Fabricator** is to transform that idea into a fully functional playground that is safe, attractive, and built for years of use.",
+                text: "At **Maskeen Toys**, our role as a **Play Area Fabricator** is to transform that idea into a fully functional playground that is safe, attractive, and built for years of use.",
             },
             {
                 type: "paragraph",
@@ -5331,7 +5331,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At Maskeen Overseas, every project is developed with these principles in mind to ensure children enjoy meaningful play experiences rather than simply using equipment.",
+                text: "At Maskeen Toys, every project is developed with these principles in mind to ensure children enjoy meaningful play experiences rather than simply using equipment.",
             },
             {
                 type: "heading",
@@ -5451,7 +5451,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At Maskeen Overseas, these factors are considered from the beginning of every project.",
+                text: "At Maskeen Toys, these factors are considered from the beginning of every project.",
             },
             {
                 type: "heading",
@@ -5539,7 +5539,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Maskeen Overseas continuously follows industry developments to recommend practical and engaging solutions that enhance children's experiences without compromising safety.",
+                text: "Maskeen Toys continuously follows industry developments to recommend practical and engaging solutions that enhance children's experiences without compromising safety.",
             },
             {
                 type: "heading",
@@ -5648,7 +5648,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, we combine thoughtful design, quality fabrication, and professional execution to build play areas that are safe, durable, and enjoyable for children while delivering long-term value to businesses.",
+                text: "At **Maskeen Toys**, we combine thoughtful design, quality fabrication, and professional execution to build play areas that are safe, durable, and enjoyable for children while delivering long-term value to businesses.",
             },
             {
                 type: "paragraph",
@@ -5662,11 +5662,11 @@ export const landingPages = [
         metaTitle: "Kids Indoor Activity Zone | Fun & Safe Play for Kids",
         metaDescription:
             "Explore our Kids Indoor Activity Zone with safe, fun-filled play areas, games & activities for all ages. Book a visit today for endless indoor fun!",
-        image: "/products/toddler-set.png",
+        image: "/products/toddler-set.webp",
         content: [
             {
                 type: "heading",
-                text: "Premium Indoor Play Area Solutions by Maskeen Overseas",
+                text: "Premium Indoor Play Area Solutions by Maskeen Toys",
             },
             {
                 type: "paragraph",
@@ -5678,7 +5678,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, we specialize in designing and manufacturing innovative, durable, and safety-certified **Indoor Activity Zones for Kids** that combine entertainment, learning, and physical development. Our customized solutions help businesses create unforgettable experiences while ensuring maximum safety and long-term durability.",
+                text: "At **Maskeen Toys**, we specialize in designing and manufacturing innovative, durable, and safety-certified **Indoor Activity Zones for Kids** that combine entertainment, learning, and physical development. Our customized solutions help businesses create unforgettable experiences while ensuring maximum safety and long-term durability.",
             },
             {
                 type: "paragraph",
@@ -5947,7 +5947,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Every project has unique requirements. At **Maskeen Overseas**, we design customized indoor play environments that match your available space, audience, and budget.",
+                text: "Every project has unique requirements. At **Maskeen Toys**, we design customized indoor play environments that match your available space, audience, and budget.",
             },
             {
                 type: "subheading",
@@ -6035,11 +6035,11 @@ export const landingPages = [
             },
             {
                 type: "subheading",
-                text: "Why Choose Maskeen Overseas?",
+                text: "Why Choose Maskeen Toys?",
             },
             {
                 type: "paragraph",
-                text: "When it comes to designing safe, innovative, and engaging **Kids Indoor Activity Zones**, **Maskeen Overseas** stands out as a trusted manufacturer and solution provider. We combine quality craftsmanship, child-focused designs, premium materials, and international safety standards to deliver customized indoor play environments that delight children and support business growth.",
+                text: "When it comes to designing safe, innovative, and engaging **Kids Indoor Activity Zones**, **Maskeen Toys** stands out as a trusted manufacturer and solution provider. We combine quality craftsmanship, child-focused designs, premium materials, and international safety standards to deliver customized indoor play environments that delight children and support business growth.",
             },
             {
                 type: "paragraph",
@@ -6107,7 +6107,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Premium slides manufactured by **Maskeen Overseas** are designed using durable, child-safe materials with smooth finishes for maximum safety.",
+                text: "Premium slides manufactured by **Maskeen Toys** are designed using durable, child-safe materials with smooth finishes for maximum safety.",
             },
             {
                 type: "subheading",
@@ -6267,7 +6267,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Overseas**, safety is integrated into every stage—from design and material selection to manufacturing and installation.",
+                text: "At **Maskeen Toys**, safety is integrated into every stage—from design and material selection to manufacturing and installation.",
             },
             {
                 type: "subheading",
@@ -6354,7 +6354,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "A successful indoor play area begins with careful planning. At **Maskeen Overseas**, every project follows a structured design process to create a customized solution that meets the client's goals and available space.",
+                text: "A successful indoor play area begins with careful planning. At **Maskeen Toys**, every project follows a structured design process to create a customized solution that meets the client's goals and available space.",
             },
             {
                 type: "subheading4",
@@ -6441,15 +6441,15 @@ export const landingPages = [
             },
             {
                 type: "heading",
-                text: "Why Maskeen Overseas is the Preferred Choice",
+                text: "Why Maskeen Toys is the Preferred Choice",
             },
             {
                 type: "paragraph",
-                text: "Choosing the right manufacturer is just as important as selecting the right equipment. **Maskeen Overseas** has earned a strong reputation for delivering innovative, durable, and customized indoor activity solutions tailored to the unique needs of schools, malls, hotels, daycare centers, family entertainment centers, and commercial businesses.",
+                text: "Choosing the right manufacturer is just as important as selecting the right equipment. **Maskeen Toys** has earned a strong reputation for delivering innovative, durable, and customized indoor activity solutions tailored to the unique needs of schools, malls, hotels, daycare centers, family entertainment centers, and commercial businesses.",
             },
             {
                 type: "subheading",
-                text: "Why clients trust Maskeen Overseas:",
+                text: "Why clients trust Maskeen Toys:",
             },
             {
                 type: "list",
@@ -6529,9 +6529,9 @@ export const landingPages = [
             },
             {
                 type: "faq",
-                question: "Why choose Maskeen Overseas?",
+                question: "Why choose Maskeen Toys?",
                 answer:
-                    "Maskeen Overseas offers customized designs, premium-quality materials, strict safety standards, professional installation, and reliable after-sales support, making it a trusted partner for indoor play projects.",
+                    "Maskeen Toys offers customized designs, premium-quality materials, strict safety standards, professional installation, and reliable after-sales support, making it a trusted partner for indoor play projects.",
             },
             {
                 type: "heading",
@@ -6547,11 +6547,11 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "**Maskeen Overseas** is committed to delivering innovative, durable, and safety-focused indoor play solutions tailored to your unique requirements. From concept development and 3D design to manufacturing, installation, and after-sales support, our team provides end-to-end solutions that combine creativity, quality, and reliability.",
+                text: "**Maskeen Toys** is committed to delivering innovative, durable, and safety-focused indoor play solutions tailored to your unique requirements. From concept development and 3D design to manufacturing, installation, and after-sales support, our team provides end-to-end solutions that combine creativity, quality, and reliability.",
             },
             {
                 type: "paragraph",
-                text: "If you're ready to create a world-class **Kids Indoor Activity Zone**, partner with **Maskeen Overseas** and bring your vision to life with expertly crafted play environments designed to delight children and inspire families.",
+                text: "If you're ready to create a world-class **Kids Indoor Activity Zone**, partner with **Maskeen Toys** and bring your vision to life with expertly crafted play environments designed to delight children and inspire families.",
             },
         ],
     },
@@ -6561,7 +6561,7 @@ export const landingPages = [
         metaTitle: "Soft Play Manufacturer Near Me - Maskeen Toys",
         metaDescription:
             "Maskeen Toys - trusted soft play manufacturer near me. Custom designs, safe materials, factory-direct pricing. Book a free consultation today!",
-        image: "/products/toddler-set.png",
+        image: "/products/toddler-set.webp",
         content: [
             {
                 type: "heading",

@@ -78,7 +78,7 @@ export default function Header() {
           <div className="flex justify-center lg:justify-start px-2 md:px-4 py-1 md:py-3">
             <Link href="/">
               <Image
-                src="/logo.png"
+                src="/logo.webp"
                 alt="Logo"
                 width={180}
                 height={90}
@@ -110,7 +110,7 @@ export default function Header() {
               Contact Us
             </Link>
 
-            <Image src="/dragon.png" alt="Dragon" width={55} height={55} />
+            <Image src="/dragon.webp" alt="Dragon" width={55} height={55} />
 
             <div className="text-white">
               <p className="text-lg leading-none">Call Us</p>

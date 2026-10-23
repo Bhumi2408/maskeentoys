@@ -4,12 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 const galleryImages = [
-  "/home/rollset-4.png",
-  "/home/slider-9.png",
-  "/home/rollset-12.png",
-  "/home/playarea-4.png",
-  "/home/playarea-7.png",
-  "/home/playarea-8.png",
+  "/home/rollset-4.webp",
+  "/home/slider-9.webp",
+  "/home/rollset-12.webp",
+  "/home/playarea-4.webp",
+  "/home/playarea-7.webp",
+  "/home/playarea-8.webp",
 ];
 
 export default function Collections() {
@@ -17,7 +17,7 @@ export default function Collections() {
     <section
       className="relative overflow-hidden pt-12 sm:pt-16 lg:py-12"
       style={{
-        backgroundImage: "url('/home/bg4.jpg')",
+        backgroundImage: "url('/home/bg4.webp')",
         backgroundRepeat: "repeat",
         backgroundSize: "contain",
       }}
@@ -33,7 +33,7 @@ export default function Collections() {
               {/* Background Shape */}
 
               <Image
-                src="/home/yellow.png"
+                src="/home/yellow.webp"
                 alt=""
                 fill
                 priority
@@ -45,8 +45,8 @@ export default function Collections() {
               <div
                 className="absolute left-1/2 top-1/2 w-[90%] h-[95%] -translate-x-1/2 -translate-y-1/2 overflow-hidden z-10"
                 style={{
-                  WebkitMaskImage: "url('/home/mask2.png')",
-                  maskImage: "url('/home/mask2.png')",
+                  WebkitMaskImage: "url('/home/mask2.webp')",
+                  maskImage: "url('/home/mask2.webp')",
 
                   WebkitMaskRepeat: "no-repeat",
                   maskRepeat: "no-repeat",
@@ -59,7 +59,7 @@ export default function Collections() {
                 }}
               >
                 <Image
-                  src="/home/slider-10.png"
+                  src="/home/slider-10.webp"
                   alt=""
                   fill
                   priority
@@ -130,7 +130,7 @@ export default function Collections() {
               >
                 <div className="relative w-[180px] h-[350px] overflow-hidden rounded-[90px] bg-white">
                   <Image
-                    src="/home/soft-corousel.png"
+                    src="/home/soft-corousel.webp"
                     fill
                     alt=""
                     className="object-cover object-center"
@@ -159,7 +159,7 @@ export default function Collections() {
             >
               <div className="flex flex-col items-center sm:items-start gap-4 sm:gap-5">
                 <Image
-                  src="/home/dog.png"
+                  src="/home/dog.webp"
                   alt=""
                   width={100}
                   height={100}
@@ -189,7 +189,7 @@ export default function Collections() {
             >
               <div className="flex flex-col items-center sm:items-start gap-4 sm:gap-5">
                 <Image
-                  src="/home/rabbit.png"
+                  src="/home/rabbit.webp"
                   alt=""
                   width={100}
                   height={100}
@@ -214,7 +214,7 @@ export default function Collections() {
               {/* Orange Background */}
 
               <Image
-                src="/home/orange.png"
+                src="/home/orange.webp"
                 alt=""
                 fill
                 priority
@@ -226,8 +226,8 @@ export default function Collections() {
               <div
                 className="absolute left-1/2 top-1/2 w-[80%] h-[90%] -translate-x-1/2 -translate-y-1/2 overflow-hidden z-10"
                 style={{
-                  WebkitMaskImage: "url('/home/mask2.png')",
-                  maskImage: "url('/home/mask2.png')",
+                  WebkitMaskImage: "url('/home/mask2.webp')",
+                  maskImage: "url('/home/mask2.webp')",
 
                   WebkitMaskRepeat: "no-repeat",
                   maskRepeat: "no-repeat",
@@ -240,7 +240,7 @@ export default function Collections() {
                 }}
               >
                 <Image
-                  src="/home/rollset-3.png"
+                  src="/home/rollset-3.webp"
                   alt=""
                   fill
                   priority

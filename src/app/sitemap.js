@@ -15,10 +15,11 @@ export default function sitemap() {
     "/blog",
     "/contact",
     "/indoor-play-area-setup-in-delhi",
+    "/children-soft-play-equipment-supplier",
   ].map((route) => ({
     url: `${BASE_URL}${route}`,
     lastModified: new Date(),
-    changeFrequency: "weekly",
+    changeFrequency: "daily",
     priority: route === "" ? 1 : 0.8,
   }));
 
@@ -26,7 +27,7 @@ export default function sitemap() {
   const blogRoutes = blogs.map((blog) => ({
     url: `${BASE_URL}/blog/${blog.slug}`,
     lastModified: new Date(blog.date),
-    changeFrequency: "weekly",
+    changeFrequency: "daily",
     priority: 0.6,
   }));
 
@@ -34,7 +35,7 @@ export default function sitemap() {
   const landingPageRoutes = landingPages.map((page) => ({
     url: `${BASE_URL}/${page.slug}`,
     lastModified: new Date(),
-    changeFrequency: "weekly",
+    changeFrequency: "daily",
     priority: 0.7,
   }));
 

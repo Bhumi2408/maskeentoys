@@ -9,7 +9,7 @@ const sections = [
       "Designed to delight and engage, our Soft Play & Playarea setups create a safe space where kids can climb, slide, crawl, and explore freely. Every component — from colorful tunnels to cushioned ball pits — is crafted to boost gross motor skills while encouraging creativity and teamwork. Perfect for preschools, daycares, and indoor recreation centers.",
       "We prioritize safety just as much as fun. Our play areas are built with high-density foam padding, child-safe materials, and reinforced structures that ensure durability and comfort. Whether you’re looking to build a cozy corner for toddlers or a multi-level adventure zone, our modular designs can be tailored to fit any space and theme.",
     ],
-    image: "/home/playarea-7.png",
+    image: "/home/playarea-7.webp",
     reverse: false,
   },
   {
@@ -19,7 +19,7 @@ const sections = [
       "Our play areas are thoughtfully designed to combine entertainment and education. With vibrant structures, safe materials, and engaging activities, children can explore, climb, and create while developing essential skills.",
       "From colorful ball pits to exciting slides, every element encourages imagination and social interaction. We ensure each space is safe, comfortable, and tailored to inspire joyful learning experiences for young minds.",
     ],
-    image: "/about/colorful-playroom.jpeg",
+    image: "/about/colorful-playroom.webp",
     reverse: true,
   },
 ];

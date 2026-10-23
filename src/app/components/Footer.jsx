@@ -21,22 +21,22 @@ const links = [
 
 const blogPosts = [
   {
-    image: "/home/about-right.jpeg",
+    image: "/home/about-right.webp",
     title:
       "Complete Soft Play Area Solutions in Delhi — Build a Safe, Colorful & Fun World for Your Kids",
-    href: "/complete-soft-play-area-solutions",
+    href: "/blog/complete-soft-play-area-solutions",
   },
   {
-    image: "/home/blog2.png",
+    image: "/home/blog2.webp",
     title:
       "Soft Play Equipment for Kids: Complete Guide to Indoor Playgrounds, Play Zones & Choosing the Right Manufacturer in Delhi",
-    href: "/soft-play-equipment-for-kids",
+    href: "/blog/soft-play-equipment-for-kids",
   },
   {
-    image: "/home/playarea-2.png",
+    image: "/home/playarea-2.webp",
     title:
       "Top Soft Play Area Manufacturer Creating Safe and Engaging Kids Play Zones in Delhi 2026",
-    href: "/soft-play-area-manufacturer",
+    href: "/blog/soft-play-area-manufacturer",
   },
 ];
 
@@ -68,7 +68,7 @@ export default function Footer() {
     <footer className="relative overflow-hidden bg-[#FBF9F3]">
       {/* Background pattern */}
       <Image
-        src="/home/footerbg.jpg"
+        src="/home/footerbg.webp"
         alt=""
         fill
         className="object-cover object-top pointer-events-none select-none -z-0"
@@ -85,7 +85,7 @@ export default function Footer() {
               </h2>
 
               <Image
-                src="/home/doggy.png"
+                src="/home/doggy.webp"
                 alt=""
                 width={100}
                 height={130}
@@ -119,7 +119,7 @@ export default function Footer() {
 
         {/* Icecream decorative — top right, desktop only */}
         <Image
-          src="/home/mushroom.png"
+          src="/home/mushroom.webp"
           alt=""
           width={70}
           height={140}
@@ -135,7 +135,7 @@ export default function Footer() {
             </h4>
 
             <p className="mt-4 text-[#5F5F5F] leading-6 sm:leading-7 max-w-[320px]">
-              At Maskeen Overseas, we craft toys that inspire creativity and
+              At Maskeen Toys, we craft toys that inspire creativity and
               support learning. As trusted Play School Toys Suppliers in India,
               we combine fun with development—offering quality furniture and
               playful solutions that help young minds grow.
@@ -156,7 +156,7 @@ export default function Footer() {
                 </a>
                 {/* Flower decorative */}
                 <Image
-                  src="/home/flowwer.png"
+                  src="/home/flowwer.webp"
                   alt=""
                   width={90}
                   height={90}
@@ -295,7 +295,7 @@ export default function Footer() {
           {/* Logo */}
           <div className="flex justify-center sm:justify-start">
             <Image
-              src="/logo.png"
+              src="/logo.webp"
               alt="Maskeen Toys"
               width={200}
               height={100}
@@ -305,7 +305,7 @@ export default function Footer() {
 
           {/* Copyright */}
           <p className="text-center text-[#333]">
-            © 2025 Maskeen Overseas. All Rights Reserved |{" "}
+            © 2025 Maskeen Toys. All Rights Reserved |{" "}
             <a
               href="https://www.cybertricksmedia.com/"
               target="_blank"

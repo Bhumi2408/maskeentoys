@@ -20,7 +20,7 @@ export default function BlogPage() {
       <PageBanner
         title="Our Blog"
         subtitle="Insights, Guides & Ideas on Soft Play & Indoor Playgrounds"
-        bgImage="/home/rollset-12.png"
+        bgImage="/home/rollset-12.webp"
       />
 
       <section className="bg-[#FBF9F3] py-14 sm:py-16 lg:py-20">

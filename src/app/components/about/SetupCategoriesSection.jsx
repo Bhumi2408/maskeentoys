@@ -9,26 +9,26 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import "swiper/css";
 import "swiper/css/navigation";
 
-const sliderImages = ["/about/center-set.png", "/home/soft-corousel.png"];
+const sliderImages = ["/about/center-set.webp", "/home/soft-corousel.webp"];
 
 const categories = [
   {
-    icon: "/about/school.png",
+    icon: "/about/school.webp",
     title: "Setup For Schools",
     tag: "New",
   },
   {
-    icon: "/about/society.png",
+    icon: "/about/society.webp",
     title: "Setup For Societies",
     tag: "Best",
   },
   {
-    icon: "/about/park.png",
+    icon: "/about/park.webp",
     title: "Setup For Amusement Parks",
     tag: "New",
   },
   {
-    icon: "/about/hotel.png",
+    icon: "/about/hotel.webp",
     title: "Setup For Hotels & Resorts",
     tag: "Popular",
     active: true,

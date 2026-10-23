@@ -4,7 +4,7 @@ export default function NotFound() {
   return (
     <main className="w-full min-h-screen">
       <Image
-        src="/not-found.png"
+        src="/not-found.webp"
         width={1980}
         height={300}
         alt="Page Not Found"

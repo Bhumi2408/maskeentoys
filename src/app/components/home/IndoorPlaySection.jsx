@@ -78,7 +78,7 @@ export default function IndoorPlaySection() {
           {/* ================= RIGHT (image column) ================= */}
           <div className="relative mt-8 md:mt-0">
             <Image
-              src="/home/playarea-2.png"
+              src="/home/playarea-2.webp"
               alt=""
               width={950}
               height={760}
@@ -100,7 +100,7 @@ export default function IndoorPlaySection() {
             >
               <motion.div style={{ y: neckY }} className="w-full h-full">
                 <Image
-                  src="/home/giraffe.png"
+                  src="/home/giraffe.webp"
                   alt=""
                   width={85}
                   height={170}

@@ -3,10 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 const galleryImages = [
-  "/about/slider-1.png",
-  "/about/slider-6.png",
-  "/about/slider-2.png",
-  "/about/slider-12.png",
+  "/about/slider-1.webp",
+  "/about/slider-6.webp",
+  "/about/slider-2.webp",
+  "/about/slider-12.webp",
 ];
 
 export default function AboutIntroSection() {
@@ -42,7 +42,7 @@ export default function AboutIntroSection() {
 
             <div className="mt-6 sm:mt-8 grid sm:grid-cols-2 gap-5 sm:gap-6">
               <p className="tracking-wider text-[#5F5F5F] leading-6 sm:leading-7">
-                At Maskeen Overseas, we understand that every corner of a
+                At Maskeen Toys, we understand that every corner of a
                 playschool should spark imagination and joy. Our products are
                 designed to blend fun with function — whether it&apos;s a
                 brightly colored activity mat, engaging learning stations, or

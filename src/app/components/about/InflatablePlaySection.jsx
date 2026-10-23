@@ -83,7 +83,7 @@ export default function InflatablePlaySection() {
           <div className="grid sm:grid-cols-2 mt-auto">
             <div className="relative w-full h-[220px] sm:h-[260px] md:h-[450px]">
               <Image
-                src="/home/blog2.png"
+                src="/home/blog2.webp"
                 alt="Climbing frame with slide"
                 fill
                 sizes="(max-width: 1024px) 50vw, 25vw"

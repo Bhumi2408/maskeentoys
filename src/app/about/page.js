@@ -20,7 +20,7 @@ export default function AboutPage() {
              <PageBanner
         title="About US"
         subtitle="Pioneering Excellence in Soft Play Design & Play Area Installations"
-        bgImage="/about/house-set.png"
+        bgImage="/about/house-set.webp"
       />
 
             <AboutIntroSection />

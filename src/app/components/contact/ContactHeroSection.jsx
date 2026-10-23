@@ -33,7 +33,7 @@ export default function ContactHeroSection() {
     <section className="relative overflow-hidden bg-white py-14 sm:py-16 lg:py-20">
       {/* Background decorative image */}
       <Image
-        src="/bg.jpg"
+        src="/bg.webp"
         alt="background"
         fill
         className="object-cover pointer-events-none select-none -z-0"

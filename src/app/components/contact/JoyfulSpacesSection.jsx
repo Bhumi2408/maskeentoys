@@ -3,25 +3,25 @@ import Image from "next/image";
 
 const cards = [
   {
-    image: "/home/soft-rocker.png",
+    image: "/home/soft-rocker.webp",
     title: "Playful Designs",
     desc: "Colorful, safe, and engaging toys that spark early curiosity.",
-    bgShape: "/home/yellow.png",
-    mask: "/home/mask2.png",
+    bgShape: "/home/yellow.webp",
+    mask: "/home/mask2.webp",
   },
   {
-    image: "/home/about-left.png",
+    image: "/home/about-left.webp",
     title: "Smart Learning",
     desc: "Help children build, imagine, and explore with hands-on play.",
     bgShape: null,
     mask: null,
   },
   {
-    image: "/home/beam-set.png",
+    image: "/home/beam-set.webp",
     title: "Creative Growth",
     desc: "Vibrant blocks that boost motor skills and problem-solving.",
-    bgShape: "/home/back.png",
-    mask: "/home/mask.png",
+    bgShape: "/home/back.webp",
+    mask: "/home/mask.webp",
   },
 ];
 
@@ -30,7 +30,7 @@ export default function JoyfulSpacesSection() {
     <section className="relative overflow-hidden bg-white py-14 sm:py-16 lg:py-20">
       {/* Background decorative pattern */}
       <Image
-        src="/home/bg1.jpg"
+        src="/home/bg1.webp"
         alt="background"
         fill
         className="object-cover pointer-events-none select-none -z-0"

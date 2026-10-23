@@ -16,7 +16,7 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <>
-      <PageBanner title="Contact Us" bgImage="/about/slider-1.png" />
+      <PageBanner title="Contact Us" bgImage="/about/slider-1.webp" />
 
       <ContactHeroSection />
 

@@ -85,7 +85,7 @@ export default function WhyChooseUs() {
         ref={ref}
         className="relative overflow-hidden bg-[#FCF8EF] py-10 lg:py-16"
         style={{
-          backgroundImage: "url('/home/bg2.jpg')",
+          backgroundImage: "url('/home/bg2.webp')",
           backgroundRepeat: "repeat",
           backgroundPosition: "center center",
           backgroundSize: "contain",
@@ -113,7 +113,7 @@ export default function WhyChooseUs() {
           >
             Quality{" "}
             <Image
-              src="/home/lion.png"
+              src="/home/lion.webp"
               width={95}
               height={95}
               alt=""
@@ -125,7 +125,7 @@ export default function WhyChooseUs() {
            
             India and beyond
             <Image
-              src="/home/sun.png"
+              src="/home/sun.webp"
               width={82}
               height={82}
               alt=""
@@ -283,7 +283,7 @@ export default function WhyChooseUs() {
           </div>
 
           <Image
-            src="/home/flower.png"
+            src="/home/flower.webp"
             alt=""
             width={110}
             height={110}

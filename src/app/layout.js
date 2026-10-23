@@ -6,6 +6,7 @@ import Script from "next/script";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
+import EnquiryPopup from "./components/EnquiryPopup";
 
 
 const sourceSans = Source_Sans_3({
@@ -40,7 +41,7 @@ export const metadata = {
   },
 
   icons:{
-    icon:"/fav.png"
+    icon:"/fav.webp"
   },
   verification: {
     google: "CxfR-cIa9v_WCYV1TiKkZmkviAu4FwgS2kEoFShqxQI",
@@ -73,6 +74,7 @@ export default function RootLayout({ children }) {
 
         <main>{children}</main>
         <WhatsAppButton/>
+        <EnquiryPopup />
         <Footer />
       </body>
     </html>

@@ -4,26 +4,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-
-const WEB3FORMS_ACCESS_KEY = "1680d147-2056-4ce8-98de-053b43b71a59";
-
-// const WEB3FORMS_ACCESS_KEY_2 = "YOUR_SECOND_WEB3FORMS_ACCESS_KEY_HERE";
-
-const submitToWeb3Forms = async (payload, accessKey) => {
-  const response = await fetch("https://api.web3forms.com/submit", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Accept: "application/json",
-    },
-    body: JSON.stringify({ ...payload, access_key: accessKey }),
-  });
-  const result = await response.json();
-  if (!result.success) {
-    throw new Error(result.message || "Submission failed");
-  }
-  return result;
-};
+import { WEB3FORMS_ACCESS_KEY, submitToWeb3Forms } from "../../data/web3forms";
 
 export default function ContactFormSection() {
   const router = useRouter();
@@ -57,7 +38,7 @@ export default function ContactFormSection() {
     };
 
     try {
-      await submitToWeb3Forms(payload, "1680d147-2056-4ce8-98de-053b43b71a59");
+      await submitToWeb3Forms(payload, WEB3FORMS_ACCESS_KEY);
 
       //  FUTURE USE: jab 2nd access key add karni ho, upar wali
       // WEB3FORMS_ACCESS_KEY_2 line uncomment karo aur try block ko
@@ -86,7 +67,7 @@ export default function ContactFormSection() {
         {/* ================= LEFT (image) ================= */}
         <div className="relative w-full h-[280px] sm:h-[380px] lg:h-auto">
           <Image
-            src="/about/navy-ship-play-set.png"
+            src="/about/navy-ship-play-set.webp"
             alt="Soft play equipment"
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"
@@ -98,7 +79,7 @@ export default function ContactFormSection() {
         <div className="relative bg-[#FBF3E9] px-5 sm:px-10 md:px-14 lg:px-16 py-10 sm:py-12 lg:py-14">
           {/* Background decorative pattern */}
           <Image
-            src="/home/footerbg.jpg"
+            src="/home/footerbg.webp"
             alt=""
             fill
             className="object-cover pointer-events-none select-none -z-0"
