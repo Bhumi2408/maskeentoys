@@ -23,6 +23,7 @@ export async function generateMetadata({ params }) {
   return {
     title: seoTitle,
     description: seoDescription,
+    keywords: blog.keywords,
     alternates: {
       canonical: `https://www.playareamanufacturer.com/blog/${blog.slug}`,
     },
@@ -57,8 +58,31 @@ export default async function BlogDetailPage({ params }) {
     .filter((b) => b.slug !== blog.slug)
     .slice(0, 3);
 
+  // Blog me FAQs hai to FAQPage schema bhi add hoga
+  const faqs = blog.content.filter((block) => block.type === "faq");
+  const faqSchema = faqs.length > 0 && {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": `https://www.playareamanufacturer.com/blog/${blog.slug}#faq`,
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer.replace(/\*\*(.+?)\*\*/g, "$1").replace(/\[(.+?)\]\((.+?)\)/g, "$1"),
+      },
+    })),
+  };
+
   return (
     <>
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
+
       {/* ================= HEADER IMAGE ================= */}
       <section className="relative w-full h-[260px] sm:h-[360px] md:h-[440px]">
         <Image
