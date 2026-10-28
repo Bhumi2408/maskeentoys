@@ -22,11 +22,11 @@ const blogs = [
   },
   {
     id: 3,
-    image: "/home/playarea-2.webp",
+    image: "/blog/indoor-kids-play-zone-setup-cost-india.webp",
     title:
-      "Top Soft Play Area Manufacturer Creating Safe And Engaging Kids Play Zones In Delhi 2026",
-    desc: "You just opened a kids café. Or maybe you're setting",
-    slug: "/blog/soft-play-area-manufacturer",
+      "How Much Does An Indoor Kids Play Zone Setup Cost In India? (2026 Guide)",
+    desc: "Planning to open an indoor kids' play zone but",
+    slug: "/blog/indoor-kids-play-zone-setup-cost-india",
   },
 ];
 
@@ -108,7 +108,7 @@ export default function BlogSection() {
 
         {/* BLOG GRID */}
 
-        <div className="mt-10 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-10 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {blogs.map((blog) => (
             <Link
               key={blog.id}

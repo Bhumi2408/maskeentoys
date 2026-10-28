@@ -122,7 +122,7 @@ export default async function BlogDetailPage({ params }) {
 
       {/* ================= CONTENT ================= */}
       <section className="bg-white py-12 sm:py-16">
-        <div className="mx-auto max-w-[850px] px-5 sm:px-8">
+        <div className="mx-auto max-w-[1100px] px-5 sm:px-8">
           <BlogContentRenderer content={blog.content} />
         </div>
       </section>

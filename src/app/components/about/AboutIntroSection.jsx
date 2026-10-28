@@ -43,11 +43,14 @@ export default function AboutIntroSection() {
             <div className="mt-6 sm:mt-8 grid sm:grid-cols-2 gap-5 sm:gap-6">
               <p className="tracking-wider text-[#5F5F5F] leading-6 sm:leading-7">
                 At Maskeen Toys, we understand that every corner of a
-                playschool should spark imagination and joy. Our products are
-                designed to blend fun with function — whether it&apos;s a
-                brightly colored activity mat, engaging learning stations, or
-                soft play structures that ensure complete safety. We bring
-                spaces to life where children not only play but also grow.
+                playschool should be filled with fun, learning, and
+                imagination. As a trusted Kids Play Area Designing Company, we
+                create engaging and child-friendly spaces that make learning
+                more enjoyable. From colorful activity mats and interactive
+                learning stations to safe soft play structures, our products
+                are designed to keep children active, happy, and creative. We
+                focus on making every play area a place where children can
+                play, learn, explore, and grow safely.
               </p>
 
               <p className="tracking-wider text-[#5F5F5F] leading-6 sm:leading-7">

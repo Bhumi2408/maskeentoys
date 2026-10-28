@@ -4,7 +4,8 @@ import BlogCard from "./BlogCard";
 import { getSortedBlogs } from "./data/blogs";
 
 export const metadata = {
-  title: "Blog | Maskeen Toys - Soft Play Area Manufacturer in Delhi",
+  title: "Blog | Maskeen Toys",
+  keywords: ["Blog Maskeen Toys"],
   description:
     "Read the latest articles, guides, and insights on soft play equipment, indoor playgrounds, and playschool furniture from Maskeen Toys — trusted soft play area manufacturer in Delhi.",
   alternates: {

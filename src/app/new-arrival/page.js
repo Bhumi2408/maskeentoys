@@ -4,9 +4,15 @@ import PageBanner from "../components/PageBanner";
 import ProductGrid from "../components/ProductGrid";
 
 export const metadata = {
-    title: "New Arrival | Maskeen Toys - Soft Play Area Manufacturer in Delhi",
+    title: "New Arrival | Soft Play Equipment 2026 | Maskeen Toys",
     description:
-        "Explore the latest soft play equipment, indoor playground structures, and playschool furniture newly launched by Maskeen Toys — trusted soft play area manufacturer in Delhi.",
+        "Explore the latest soft play equipment, indoor playground structures, and playschool furniture newly launched by Maskeen Toys.",
+    keywords: [
+        "New Arrival",
+        "Soft Play Equipment",
+        "Toddler Soft Play Equipment",
+        "Soft Play Equipment for Kids",
+    ],
     alternates: {
         canonical: "https://www.playareamanufacturer.com/new-arrival",
     },

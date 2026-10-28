@@ -1,7 +1,10 @@
 // src/app/components/PageBanner.jsx
 import Image from "next/image";
 
-export default function PageBanner({ title, subtitle, bgImage, compactTitle = false }) {
+// titleTag: jis page pe H1 neeche content me hai, waha banner title "p" ban jata hai
+export default function PageBanner({ title, subtitle, bgImage, compactTitle = false, titleTag = "h1" }) {
+  const TitleTag = titleTag;
+
   return (
     <section className="relative w-full overflow-hidden">
       {/* Background image */}
@@ -19,7 +22,7 @@ export default function PageBanner({ title, subtitle, bgImage, compactTitle = fa
 
         {/* Content */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 sm:px-8">
-          <h1
+          <TitleTag
             className={`
             font-love
             text-white
@@ -32,7 +35,7 @@ export default function PageBanner({ title, subtitle, bgImage, compactTitle = fa
             `}
           >
             {title}
-          </h1>
+          </TitleTag>
 
           {subtitle && (
             <p

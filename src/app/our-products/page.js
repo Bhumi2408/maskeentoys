@@ -2,11 +2,18 @@
 import Image from "next/image";
 import PageBanner from "../components/PageBanner";
 import ProductsInfoSection from "../components/ProductsInfoSection";
+import faqSchema from "../data/ourProductsFaqSchema.json";
 
 export const metadata = {
-    title: "Commercial & Children Soft Play Area Equipment supplier",
+    title: "Buy Children's Soft Play Equipment | Maskeen Toys",
     description:
-        "Maskeen Toys offers Commercial Soft Play Equipment & School Play Area Equipment. Safe, durable & customizable play solutions. Contact us for best deals!",
+        "Buy Children Soft Play Equipment & Kids Amusement Play Equipment from Maskeen Toys, Delhi. Safe, durable, customizable play sets. Contact us today!",
+    keywords: [
+        "Children Soft Play Equipment",
+        "Kids Amusement Play Equipment",
+        "Children's Soft Play Equipment Manufacturer",
+        "Commercial Soft Play Equipment",
+    ],
     alternates: {
         canonical: "https://www.playareamanufacturer.com/our-products",
     },
@@ -80,9 +87,15 @@ const products = [
 export default function OurProductsPage() {
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+            />
+
             <PageBanner
                 title="Our Products"
                 bgImage="/products/toddler-set.webp"
+                titleTag="p"
             />
 
             {/* ================= PRODUCTS ================= */}
@@ -117,6 +130,27 @@ export default function OurProductsPage() {
                             </div>
                         ))}
                     </div>
+                </div>
+            </section>
+
+            {/* ================= INTRO ================= */}
+            <section className="bg-white pb-14 sm:pb-16 lg:pb-20">
+                <div className="mx-auto max-w-[1100px] px-5 sm:px-8 text-center">
+                    <h1 className="font-love text-[#21324A] text-[28px] sm:text-[38px] md:text-[44px] leading-[1.15]">
+                        Buy Children Soft Play Equipment &{" "}
+                        <span className="text-[#F15D87] italic">
+                            Kids Amusement Play Equipment
+                        </span>
+                    </h1>
+                    <p className="mt-6 text-[15px] sm:text-[17px] text-[#4a4a4a] leading-[1.8]">
+                        Every great play area starts with the right equipment. At
+                        Maskeen Toys, we manufacture and supply children soft play
+                        equipment that keeps kids active, engaged and safe, while
+                        giving schools, indoor playgrounds and play cafés a durable,
+                        easy-to-maintain investment. From compact toddler corners to
+                        full-scale play zones, our kids amusement play equipment
+                        turns any space into a place children love to return to.
+                    </p>
                 </div>
             </section>
 

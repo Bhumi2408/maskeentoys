@@ -5,7 +5,8 @@ import JoyfulSpacesSection from "../components/contact/JoyfulSpacesSection";
 import PageBanner from "../components/PageBanner";
 
 export const metadata = {
-  title: "Contact Us | Maskeen Toys - Soft Play Area Manufacturer in Delhi",
+  title: "Contact Us | Maskeen Toys",
+  keywords: ["Contact Maskeen Toys"],
   description:
     "Get in touch with Maskeen Toys for custom soft play equipment, quotations, and installation support. Visit us at our Delhi manufacturing unit or reach out online.",
   alternates: {

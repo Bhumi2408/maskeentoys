@@ -6,9 +6,15 @@ import SetupCategoriesSection from "../components/about/SetupCategoriesSection";
 import TextImageSection from "../components/about/TextImageSection";
 
 export const metadata = {
-    title: "About Maskeen Toys | Kids Indoor Playground Manufacturer",
+    title: "About Maskeen Toys | Top Kids Play Area Designing Company",
     description:
-        "Maskeen Toys is a trusted manufacturer of indoor playground equipment, soft play sets, and kids play solutions designed for safety, durability, and fun.",
+        "Maskeen Toys is a trusted Kids Play Area Designing Company offering indoor playground equipment, soft play sets, and kids' play solutions. We design fun, safe, and durable play areas. Contact us now!",
+    keywords: [
+        "About Maskeen Toys",
+        "Kids Play Area Designing Company",
+        "Soft Play Construction Company",
+        "Play Zone Interior Designing Company",
+    ],
     alternates: {
         canonical: "https://www.playareamanufacturer.com/about",
     },

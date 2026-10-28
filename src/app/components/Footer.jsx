@@ -33,10 +33,10 @@ const blogPosts = [
     href: "/blog/soft-play-equipment-for-kids",
   },
   {
-    image: "/home/playarea-2.webp",
+    image: "/blog/indoor-kids-play-zone-setup-cost-india.webp",
     title:
-      "Top Soft Play Area Manufacturer Creating Safe and Engaging Kids Play Zones in Delhi 2026",
-    href: "/blog/soft-play-area-manufacturer",
+      "How Much Does an Indoor Kids Play Zone Setup Cost in India? (2026 Guide)",
+    href: "/blog/indoor-kids-play-zone-setup-cost-india",
   },
 ];
 
