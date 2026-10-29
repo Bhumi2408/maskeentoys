@@ -4,7 +4,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { WEB3FORMS_ACCESS_KEY, WEB3FORMS_ACCESS_KEY_2, submitToWeb3Forms } from "../../data/web3forms";
+import { submitToAllWeb3Forms } from "../../data/web3forms";
 
 export default function ContactFormSection() {
   const router = useRouter();
@@ -38,14 +38,8 @@ export default function ContactFormSection() {
     };
 
     try {
-      // Dono access keys pe ek saath bhejo, taaki same response dono inbox me
-      // jaaye aur ek fail ho tab bhi doosra chal jaaye
-      const results = await Promise.allSettled([
-        submitToWeb3Forms(payload, WEB3FORMS_ACCESS_KEY),
-        submitToWeb3Forms(payload, WEB3FORMS_ACCESS_KEY_2),
-      ]);
-      const atLeastOneSucceeded = results.some((r) => r.status === "fulfilled");
-      if (!atLeastOneSucceeded) throw new Error("Both submissions failed");
+      // Dono access keys pe jaata hai (dono email IDs pe same response)
+      await submitToAllWeb3Forms(payload);
 
       setStatus("success");
       e.target.reset();

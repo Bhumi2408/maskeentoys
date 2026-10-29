@@ -20,3 +20,14 @@ export const submitToWeb3Forms = async (payload, accessKey = WEB3FORMS_ACCESS_KE
   }
   return result;
 };
+
+// Dono access keys pe ek saath bhejo, taaki same response dono inbox me
+// jaaye aur ek fail ho tab bhi doosra chal jaaye
+export const submitToAllWeb3Forms = async (payload) => {
+  const results = await Promise.allSettled([
+    submitToWeb3Forms(payload, WEB3FORMS_ACCESS_KEY),
+    submitToWeb3Forms(payload, WEB3FORMS_ACCESS_KEY_2),
+  ]);
+  const atLeastOneSucceeded = results.some((r) => r.status === "fulfilled");
+  if (!atLeastOneSucceeded) throw new Error("Both submissions failed");
+};

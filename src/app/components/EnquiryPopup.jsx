@@ -4,7 +4,7 @@
 import { useEffect, useRef, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { X } from "lucide-react";
-import { submitToWeb3Forms } from "../data/web3forms";
+import { submitToAllWeb3Forms } from "../data/web3forms";
 
 // localStorage me popup ka state save hota hai:
 // "submitted" → form bhar diya, dobara kabhi mat dikhao
@@ -105,7 +105,8 @@ export default function EnquiryPopup() {
     };
 
     try {
-      await submitToWeb3Forms(payload);
+      // Dono access keys pe jaata hai (dono email IDs pe same response)
+      await submitToAllWeb3Forms(payload);
       saveState("submitted");
       setDue(false);
       router.push("/thank-you");
