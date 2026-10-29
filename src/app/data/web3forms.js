@@ -3,7 +3,7 @@
 
 export const WEB3FORMS_ACCESS_KEY = "1680d147-2056-4ce8-98de-053b43b71a59";
 
-// const WEB3FORMS_ACCESS_KEY_2 = "YOUR_SECOND_WEB3FORMS_ACCESS_KEY_HERE";
+export const WEB3FORMS_ACCESS_KEY_2 = "aef38eb9-7754-461d-893e-dec8c08c038c";
 
 export const submitToWeb3Forms = async (payload, accessKey = WEB3FORMS_ACCESS_KEY) => {
   const response = await fetch("https://api.web3forms.com/submit", {
