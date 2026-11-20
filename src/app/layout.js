@@ -66,6 +66,18 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-V4CSENEPEP');
           `}
         </Script>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-M9RJK556"
+          strategy="afterInteractive"
+        />
+        <Script id="google-tag-manager" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          `}
+        </Script>
       </head>
       <body
         className={`${sourceSans.variable} ${capriola.variable} ${loveYaLikeASister.variable} font-source antialiased`}
