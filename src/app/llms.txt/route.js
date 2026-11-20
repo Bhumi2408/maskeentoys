@@ -38,6 +38,11 @@ const mainPages = [
     desc: "Indoor playground equipment for schools, daycares, malls and play zones, with safety and space-planning guidance.",
   },
   {
+    path: "/play-school-toys-manufacturer",
+    title: "Play School Toys Manufacturer in Delhi NCR",
+    desc: "Educational, indoor and wholesale play school toys, with safety and age-wise selection guidance.",
+  },
+  {
     path: "/indoor-play-area-setup-in-delhi",
     title: "Indoor Play Area Setup in Delhi",
     desc: "Indoor play area design and installation for schools, malls, cafés and homes.",
