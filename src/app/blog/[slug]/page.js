@@ -58,6 +58,31 @@ export default async function BlogDetailPage({ params }) {
     .filter((b) => b.slug !== blog.slug)
     .slice(0, 3);
 
+  const blogUrl = `https://www.playareamanufacturer.com/blog/${blog.slug}`;
+
+  // Har blog ke liye BlogPosting schema
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "@id": `${blogUrl}#article`,
+    mainEntityOfPage: { "@type": "WebPage", "@id": blogUrl },
+    headline: blog.title.trim(),
+    description: blog.metaDescription || blog.excerpt,
+    image: `https://www.playareamanufacturer.com${blog.image}`,
+    datePublished: blog.date,
+    keywords: blog.keywords,
+    author: { "@type": "Organization", name: blog.author },
+    publisher: {
+      "@type": "Organization",
+      name: "Maskeen Toys",
+      url: "https://www.playareamanufacturer.com/",
+    },
+    articleSection: blog.content
+      .filter((block) => block.type === "heading")
+      .map((block) => block.text.replace(/\*\*(.+?)\*\*/g, "$1").replace(/\[(.+?)\]\((.+?)\)/g, "$1")),
+    inLanguage: "en-IN",
+  };
+
   // Blog me FAQs hai to FAQPage schema bhi add hoga
   const faqs = blog.content.filter((block) => block.type === "faq");
   const faqSchema = faqs.length > 0 && {
@@ -76,6 +101,10 @@ export default async function BlogDetailPage({ params }) {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       {faqSchema && (
         <script
           type="application/ld+json"
