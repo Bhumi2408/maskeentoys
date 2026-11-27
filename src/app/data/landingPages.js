@@ -5922,7 +5922,11 @@ export const landingPages = [
     },
     {
         slug: "soft-play-manufacturer-near-me",
-        keywords: ["Soft play area manufacturer near me"],
+        keywords: [
+            "Soft play area manufacturer near me",
+            "Soft Play Equipment Factory",
+            "Soft Play Equipment Factory near me",
+        ],
         title: "Soft Play Manufacturer Near Me – Safe, Creative & Premium Indoor Play Solutions by Maskeen Toys",
         metaTitle: "Soft Play Manufacturer Near Me - Maskeen Toys",
         metaDescription:
@@ -6421,6 +6425,14 @@ export const landingPages = [
             {
                 type: "paragraph",
                 text: "Every finished product undergoes multiple quality inspections before dispatch.",
+            },
+            {
+                type: "heading",
+                text: "Soft Play Equipment Factory for Customized Play Solutions",
+            },
+            {
+                type: "paragraph",
+                text: "Maskeen Toys is a trusted **Soft Play Equipment Factory**, providing customized soft play products for schools, malls, daycare centres, preschools, and commercial play zones. Our manufacturing process focuses on quality materials, durable construction and child-friendly designs. We manufacture a variety of products, including soft slides, ball pools, foam play blocks, climbing structures and indoor playground equipment. From manufacturing to customized designs and installation support, we help businesses create engaging play environments that fit their space and requirements.",
             },
             {
                 type: "heading",

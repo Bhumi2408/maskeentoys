@@ -2,6 +2,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import {
   ShieldCheck,
@@ -91,19 +92,21 @@ const faqs = [
   },
 ];
 
+const sectionContainer = "mx-auto max-w-[1440px] px-3 sm:px-5 lg:px-6";
+
 export default function IndoorPlayAreaInfoSection() {
   const [openFaq, setOpenFaq] = useState(0);
 
   return (
     <>
       {/* ================= INTRO ================= */}
-      <section className="bg-[#FBF9F3] py-14 sm:py-16 lg:py-20">
-        <div className="mx-auto max-w-[1000px] px-5 sm:px-8 md:px-12 text-center">
-          <h2 className="font-love text-[#21324A] text-[26px] sm:text-[36px] md:text-[42px] leading-[1.15]">
+      <section className="bg-[#FBF9F3] py-10 sm:py-12 lg:py-16">
+        <div className={sectionContainer}>
+          <h2 className="text-center font-love text-[#21324A] text-[26px] sm:text-[36px] md:text-[42px] leading-[1.15]">
             Best Indoor Play Area Setup in Delhi - Maskeen Toys
           </h2>
 
-          <p className="mt-6 text-sm sm:text-base text-[#5F5F5F] leading-6 sm:leading-7">
+          <p className="mx-auto mt-6 max-w-5xl text-center text-base leading-7 text-[#5F5F5F]">
             If you are planning to build a fun, interactive, and safe indoor
             play zone for kids, Maskeen Toys is the perfect partner for your
             project. As a trusted name for{" "}
@@ -119,7 +122,7 @@ export default function IndoorPlayAreaInfoSection() {
             highest safety standards.
           </p>
 
-          <p className="mt-4 text-sm sm:text-base text-[#5F5F5F] leading-6 sm:leading-7">
+          <p className="mx-auto mt-4 max-w-5xl text-center text-base leading-7 text-[#5F5F5F]">
             Indoor play areas have become essential in schools, malls, daycares,
             gaming arenas, cafés, and residential spaces, offering children a
             protected environment to move, explore, and develop skills. At
@@ -131,18 +134,18 @@ export default function IndoorPlayAreaInfoSection() {
       </section>
 
       {/* ================= WHY CHOOSE US ================= */}
-      <section className="bg-white py-14 sm:py-16 lg:py-20">
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-8 md:px-12">
+      <section className="bg-white py-10 sm:py-12 lg:py-16">
+        <div className={sectionContainer}>
           <h2 className="text-center font-capriola text-[#21324A] text-xl sm:text-2xl md:text-[32px] mb-8 sm:mb-10">
             Why Choose{" "}
             <span className="text-[#F15D87] italic">Maskeen Toys?</span>
           </h2>
 
-          <div className="grid sm:grid-cols-2 gap-3 sm:gap-4">
+          <div className="grid gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
             {whyChooseUs.map((item, index) => (
               <div
                 key={index}
-                className="flex items-center gap-3 rounded-[14px] bg-[#FDEEF1] px-5 sm:px-6 py-4 sm:py-5"
+                className="flex items-center gap-3 rounded-2xl border border-[#F6D3DE] bg-[#FDEEF1] px-4 py-4 sm:px-5"
               >
                 <span className="w-2 h-2 rounded-full bg-[#F15D87] shrink-0" />
                 <span className="text-sm sm:text-base text-[#21324A] font-medium">
@@ -151,7 +154,7 @@ export default function IndoorPlayAreaInfoSection() {
               </div>
             ))}
           </div>
-          <p className="mt-3 text-center">
+          <p className="mt-5 text-center text-base leading-7 text-[#5F5F5F]">
             Whether you need a small toddler play corner or a complete
             multi-level indoor play zone, we design according to your space,
             budget, and purpose.
@@ -160,8 +163,8 @@ export default function IndoorPlayAreaInfoSection() {
       </section>
 
       {/* ================= WHERE INSTALLED ================= */}
-      <section className="bg-[#F8F5EF] py-14 sm:py-16 lg:py-20">
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-8 md:px-12">
+      <section className="bg-[#F8F5EF] py-10 sm:py-12 lg:py-16">
+        <div className={sectionContainer}>
           <h2 className="text-center font-capriola text-[#21324A] text-xl sm:text-2xl md:text-[32px] mb-8 sm:mb-10">
             Where Our Indoor Play Areas Can Be Installed
           </h2>
@@ -177,35 +180,70 @@ export default function IndoorPlayAreaInfoSection() {
             ))}
           </div>
 
-          <p className="mt-8 sm:mt-10 text-center text-sm sm:text-base text-[#5F5F5F]">
+          <p className="mt-5 text-center text-base leading-7 text-[#5F5F5F]">
             Every space is uniquely designed to keep children engaged, active,
             and entertained.
           </p>
         </div>
       </section>
 
+      <section aria-labelledby="soft-play-zone-contractor" className="bg-[#F8F5EF] pb-10 sm:pb-12 lg:pb-16">
+        <div className={sectionContainer}>
+          <div className="grid overflow-hidden rounded-[24px] border border-[#F6D3DE] bg-[#FDEEF1] lg:grid-cols-[3fr_2fr]">
+            <div className="p-4 sm:p-6 lg:p-8">
+              <h2 id="soft-play-zone-contractor" className="font-capriola text-xl text-[#21324A] sm:text-2xl md:text-[32px]">
+                Soft Play Zone Contractor India
+              </h2>
+              <p className="mt-4 text-base leading-7 text-[#5F5F5F]">
+                Maskeen Toys is a trusted <strong>soft play zone contractor in India</strong>,
+                offering customized soft play area solutions for schools, malls,
+                daycare centres, play schools and commercial spaces. We provide
+                complete services, including space planning, soft play equipment
+                selection, customized designs and professional installation.
+              </p>
+              <p className="mt-4 text-base leading-7 text-[#5F5F5F]">
+                Our setups include soft climbers, slides, ball pools, foam play
+                blocks and cushioned flooring to create engaging and child-friendly
+                play environments. We focus on quality materials, durable
+                equipment and safety-focused designs to deliver soft play zones
+                according to your space and requirements.
+              </p>
+            </div>
+            <div className="relative aspect-[16/10] lg:aspect-auto">
+              <Image
+                src="/children-soft-play/indoor-soft-play-ball-pool-slides.webp"
+                alt="Indoor soft play setup with a ball pool and slides"
+                fill
+                sizes="(min-width: 1440px) 560px, (min-width: 1024px) 40vw, 100vw"
+                className="object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ================= BENEFITS ================= */}
-      <section className="bg-white py-14 sm:py-16 lg:py-20">
-        <div className="mx-auto max-w-[900px] px-5 sm:px-8 md:px-12 text-center">
-          <h2 className="font-capriola text-[#21324A] text-xl sm:text-2xl md:text-[32px] mb-8 sm:mb-10">
+      <section className="bg-white py-10 sm:py-12 lg:py-16">
+        <div className={sectionContainer}>
+          <h2 className="text-center font-capriola text-[#21324A] text-xl sm:text-2xl md:text-[32px] mb-8 sm:mb-10">
             Benefits of Indoor Play Areas
           </h2>
 
-          <div className="flex flex-col gap-3 sm:gap-4">
+          <ul className="grid gap-3 sm:grid-cols-2 sm:gap-4">
             {benefits.map((item, index) => (
-              <div
+              <li
                 key={index}
-                className="flex items-center gap-3 rounded-[12px] bg-[#FDEEF1] px-5 sm:px-6 py-4 text-left"
+                className="flex items-center gap-3 rounded-2xl border border-[#F6D3DE] bg-[#FDEEF1] px-4 py-4 text-left sm:last:col-span-2"
               >
                 <span className="w-2 h-2 rounded-full bg-[#F15D87] shrink-0" />
                 <span className="text-sm sm:text-base text-[#21324A]">
                   {item}
                 </span>
-              </div>
+              </li>
             ))}
-          </div>
+          </ul>
 
-          <p className="mt-6 sm:mt-8 text-sm sm:text-base text-[#5F5F5F]">
+          <p className="mt-5 text-center text-base leading-7 text-[#5F5F5F]">
             Parents appreciate indoor play zones because they provide a safe
             outlet for energy while improving learning and development.
           </p>
@@ -213,22 +251,22 @@ export default function IndoorPlayAreaInfoSection() {
       </section>
 
       {/* ================= PROCESS ================= */}
-      <section className="bg-[#F8F5EF] py-14 sm:py-16 lg:py-20">
-        <div className="mx-auto max-w-[1500px] px-5 sm:px-8 md:px-12">
+      <section className="bg-[#F8F5EF] py-10 sm:py-12 lg:py-16">
+        <div className={sectionContainer}>
           <h2 className="text-center font-capriola text-[#21324A] text-xl sm:text-2xl md:text-[32px] mb-10 sm:mb-12">
             Our Process
           </h2>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-6">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-6">
             {process.map((item, index) => {
               const Icon = item.icon;
               return (
                 <div
                   key={index}
-                  className="flex flex-col items-center text-center"
+                  className="flex flex-col items-center rounded-2xl border border-[#EAEAEA] bg-white px-3 py-4 text-center sm:py-5"
                 >
-                  <span className="flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-[#F15D87] mb-3 sm:mb-4">
-                    <Icon size={24} className="text-white" />
+                  <span className="flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-[#FDEEF1] mb-3 sm:mb-4">
+                    <Icon size={24} className="text-[#B82F5D]" />
                   </span>
                   <span className="text-xs sm:text-sm font-bold text-[#21324A]">
                     {index + 1}. {item.title}
@@ -259,8 +297,8 @@ export default function IndoorPlayAreaInfoSection() {
       </section>
 
       {/* ================= FAQ ================= */}
-      <section className="bg-white py-14 sm:py-16 lg:py-20">
-        <div className="mx-auto max-w-[900px] px-5 sm:px-8 md:px-12">
+      <section className="bg-white py-10 sm:py-12 lg:py-16">
+        <div className={sectionContainer}>
           <h2 className="text-center font-capriola text-[#21324A] text-xl sm:text-2xl md:text-[32px] mb-8 sm:mb-10">
             FAQs
           </h2>
@@ -272,11 +310,11 @@ export default function IndoorPlayAreaInfoSection() {
               return (
                 <div
                   key={index}
-                  className="rounded-[14px] sm:rounded-[16px] bg-[#FDEEF1] border border-[#F6D3DE] overflow-hidden"
+                  className="overflow-hidden rounded-2xl border border-[#F6D3DE] bg-[#FFF8FA]"
                 >
                   <button
                     onClick={() => setOpenFaq(isOpen ? null : index)}
-                    className="w-full flex items-center justify-between gap-4 px-5 sm:px-7 py-4 sm:py-5 text-left"
+                    className="w-full flex items-center justify-between gap-4 px-4 py-4 text-left sm:px-5"
                   >
                     <span className="font-bold text-sm sm:text-base text-[#1a1a1a]">
                       {index + 1}. {item.q}
@@ -291,7 +329,7 @@ export default function IndoorPlayAreaInfoSection() {
                   </button>
 
                   {isOpen && (
-                    <p className="px-5 sm:px-7 pb-4 sm:pb-5 text-sm text-[#5F5F5F] leading-6">
+                    <p className="px-4 pb-4 text-base leading-7 text-[#5F5F5F] sm:px-5">
                       {item.a}
                     </p>
                   )}

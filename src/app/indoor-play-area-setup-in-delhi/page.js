@@ -10,6 +10,8 @@ export const metadata = {
     "Indoor Play Area Setup",
     "Indoor Kids Play Zone Setup",
     "Best Indoor Play Area Setup in Delhi NCR",
+    "soft play zone contractor India",
+    "softplay zone contractor in india",
   ],
   alternates: {
     canonical: "https://www.playareamanufacturer.com/indoor-play-area-setup-in-delhi",
